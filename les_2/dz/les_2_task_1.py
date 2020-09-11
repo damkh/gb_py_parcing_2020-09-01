@@ -22,6 +22,7 @@ from pprint import pprint
 import pandas as pd
 
 
+
 def hh_search(search_vac):
     lnk = f'https://hh.ru'
     site_vac = []
@@ -186,12 +187,15 @@ def sj_search(search_vac):
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'}
 # search_vac = input('Введите искомую вакансию: ')
 all_vac = []
-search_vac = 'java senior developer'
+search_vac = 'python'
 all_vac += hh_search(search_vac)
 all_vac += sj_search(search_vac)
 
+all_vac_pd = pd.DataFrame(all_vac)
+all_vac_pd.to_csv('vacs.csv', index=False)
 
-pprint(all_vac)
+
+# pprint(all_vac)
 # print(f'Найдено вакансий: {len(all_vac)}')
 # all_vac_pd = pd.DataFrame(all_vac)
 
