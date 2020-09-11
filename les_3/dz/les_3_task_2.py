@@ -58,17 +58,17 @@ client = MongoClient('127.0.0.1', 27017)
 db = client['vacs_db']
 vacs_coll = db.vacs_coll
 
-# sal = int(input('Введите минимальную зарплату в месяц (в рублях): '))
-sal = 400000
+sal = int(input('Введите минимальную зарплату в месяц (в рублях): '))
+# sal = 500000
 
 curs = get_cur()
 # Зарплата, конвертированная в валюты, найденные в вакансиях в базе
-# sal_by_today_curr = convert_sal_to_curs(sal, curs)
-sal_by_today_curr = {
-    'руб.': sal,
-    'USD': 0.011273 * sal,
-    'EUR': 0.013365 * sal
-}
+sal_by_today_curr = convert_sal_to_curs(sal, curs)
+# sal_by_today_curr = {
+#     'руб.': sal,
+#     'USD': 0.011273 * sal,
+#     'EUR': 0.013365 * sal
+# }
 
 search_vac = pd.DataFrame(greater_sal(sal_by_today_curr))
 search_vac.to_csv('search_vac.csv', index=False)

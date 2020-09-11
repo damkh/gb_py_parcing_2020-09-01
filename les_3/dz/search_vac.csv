@@ -1,520 +1,515 @@
 _id,name,link,sal_min,sal_max,sal_cur,sal_term,site
-5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2216,Data Scientist (middle or senior),https://hh.ru/vacancy/38576646,,500000.0,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25ca,Арбитражник Google2Крипта / Media Buyer Google,https://hh.ru/vacancy/39051425,100000.0,700000.0,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26f2,CTO/Технический директор проекта,https://hh.ru/vacancy/38590757,,500000.0,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2036,Программист Python (Senior) remote,https://hh.ru/vacancy/38777732,2500.0,5500.0,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2406,SRE/Site Reliability Engineer,https://hh.ru/vacancy/39137731,2000.0,5000.0,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2633,Full-stack developer,https://hh.ru/vacancy/38773846,,6000.0,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800.0,,EUR,месяц,https://hh.ru
-5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000.0,,USD,месяц,https://hh.ru
-5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000.0,,руб.,месяц,https://hh.ru
-5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000.0,,руб.,месяц,https://superjob.ru
-5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000.0,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25ca,Арбитражник Google2Крипта / Media Buyer Google,https://hh.ru/vacancy/39051425,100000,700000.0,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2025,Backend разработчик на python,https://hh.ru/vacancy/39153243,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2030,Программист (Back-end) Python,https://hh.ru/vacancy/39138858,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2032,Senior Python Developer,https://hh.ru/vacancy/38823396,230000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2035,"Программист-разработчик Python/Django (frontend, backend)",https://hh.ru/vacancy/39069137,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2037,Senior Python developer,https://hh.ru/vacancy/30005963,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2038,Программист Python,https://hh.ru/vacancy/39126632,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2039,Team Lead (Python/Django 3),https://hh.ru/vacancy/39063576,240000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203b,Python-разработчик,https://hh.ru/vacancy/38562458,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203c,Web-разработчик на Python,https://hh.ru/vacancy/37757725,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203d,Программист Python/Гис-технолог,https://hh.ru/vacancy/39168983,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed203f,"Backend-разработчик (Python, Django)",https://hh.ru/vacancy/38923809,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2043,"Разработчик автоматических тестов GUI (Python, Squish)",https://hh.ru/vacancy/38036578,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2045,Backend-разработчик на Python/Golang,https://hh.ru/vacancy/39122370,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204c,Программист Python,https://hh.ru/vacancy/38810095,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204e,Data Scientist / Machine Learning Engineer,https://hh.ru/vacancy/38732890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed204f,Senior ML Engineer,https://hh.ru/vacancy/38802418,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2058,Full stack developer (Python / Django / Vue),https://hh.ru/vacancy/37706589,1500,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed205a,Backend-разработчик (Python),https://hh.ru/vacancy/38525314,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2064,QA Automation Engineer (Python),https://hh.ru/vacancy/39068627,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2065,Data Engineer,https://hh.ru/vacancy/37422995,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed207c,Python разработчик/программист (Middle Python Developer),https://hh.ru/vacancy/38967646,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2098,"Full Stack разработчик (Python, React, PostgreSQL)",https://hh.ru/vacancy/38966721,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a2,Программист Python,https://hh.ru/vacancy/38429768,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20a6,Преподаватель Python & Data Science и Machine Learning,https://hh.ru/vacancy/36437887,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed20ca,Python разработчик (Django),https://hh.ru/vacancy/38705473,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2103,Программист MQL4/5 + Python,https://hh.ru/vacancy/38536187,68000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210d,PHP-разработчик,https://hh.ru/vacancy/39105275,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed210f,"Senior Software Engineer, Database Engineering (Cube.js Core)",https://hh.ru/vacancy/36976348,6000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2111,Аналитик,https://hh.ru/vacancy/39122970,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2114,Риск-аналитик,https://hh.ru/vacancy/39062880,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2130,Research Python developer - RiskEngine,https://hh.ru/vacancy/38635899,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2135,Web-программист (удаленно),https://hh.ru/vacancy/38826496,30000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2137,Data Scientist,https://hh.ru/vacancy/39126398,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2147,Ведущий специалист по Machine learning (3D-алгоритмы),https://hh.ru/vacancy/38172830,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed214e,Программист по созданию и ведению обучающего курса по Python,https://hh.ru/vacancy/36906276,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2153,"PHP-разработчик (full-stack, YII2)",https://hh.ru/vacancy/39091011,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2154,DevOps - разработчик ПО,https://hh.ru/vacancy/35275243,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2155,Инженер-программист C++ для встраиваемых систем (Разработчик C++ Linux/Embedded Linux),https://hh.ru/vacancy/38123271,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2167,Machine Learning Developer (AWS),https://hh.ru/vacancy/38645926,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed216c,"QA Automation Engineer, Python (remote)",https://hh.ru/vacancy/39165250,2500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2178,Senior Data Scientist,https://hh.ru/vacancy/38226025,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2181,Software Developer (PyCharm For Data Science),https://hh.ru/vacancy/35336501,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2186,Senior Python Backend Developer,https://hh.ru/vacancy/37547178,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219a,PHP-разработчик,https://hh.ru/vacancy/38998655,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219b,PHP-разработчик,https://hh.ru/vacancy/32333890,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed219c,Full Stack Teamlead,https://hh.ru/vacancy/38931129,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21a1,Data Science / RL разработчик (Middle),https://hh.ru/vacancy/39106589,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21b9,Backend-разработчик,https://hh.ru/vacancy/35629745,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c0,Golang Teamlead,https://hh.ru/vacancy/38937260,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c7,Senior Node Backend Developer,https://hh.ru/vacancy/38802522,3000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21c9,Full Stack Teamlead,https://hh.ru/vacancy/38902306,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21d1,"Системный администратор Linux, DevOps",https://hh.ru/vacancy/38950817,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e0,CI Engineer,https://hh.ru/vacancy/27812469,5000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed21e4,Системный инженер / DevOps,https://hh.ru/vacancy/38687193,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed21fe,Ведущий тестировщик программного обеспечения/Senior QA,https://hh.ru/vacancy/38414047,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2202,Аналитик данных,https://hh.ru/vacancy/38572882,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2206,Full Stack Developer,https://hh.ru/vacancy/38674999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2209,Программист С++,https://hh.ru/vacancy/37442366,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220c,PHP программист,https://hh.ru/vacancy/39153881,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed220d,Системный администратор Linux,https://hh.ru/vacancy/38953020,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2210,Frontend-разработчик,https://hh.ru/vacancy/39107564,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2212,"Backend программист, Rust",https://hh.ru/vacancy/39110802,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed222e,QA Teamlead,https://hh.ru/vacancy/38937397,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2239,Администратор серверов Unix (Linux),https://hh.ru/vacancy/38156442,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed223b,Fullstack Web Developer,https://hh.ru/vacancy/38479668,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2247,Senior Frontend developer (React),https://hh.ru/vacancy/38897662,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed224e,Руководитель проекта (машинное обучение),https://hh.ru/vacancy/38888219,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2252,Java Backend разработчик (Senior),https://hh.ru/vacancy/38782313,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2257,Разработчик систем компьютерного зрения,https://hh.ru/vacancy/39139888,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed225e,Программист С++,https://hh.ru/vacancy/39128877,6250,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed2270,"Системный администратор, инженер Linux",https://hh.ru/vacancy/38024367,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed227b,Frontend developer в Uncrn.me,https://hh.ru/vacancy/38770705,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed228b,Инженер технической поддержки Linux,https://hh.ru/vacancy/38610951,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2291,Senior Software Developer (IntelliJ IDEA),https://hh.ru/vacancy/18782702,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2295,Преподаватель по программированию,https://hh.ru/vacancy/39082800,24000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2296,Web-аналитик,https://hh.ru/vacancy/39098645,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed229a,Rust Developer,https://hh.ru/vacancy/36357908,2000,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a5,Ведущий программист С++,https://hh.ru/vacancy/37487443,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22a7,Senior frontend developer,https://hh.ru/vacancy/38993374,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b1,Аналитик,https://hh.ru/vacancy/38712658,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22b3,Senior PHP Fullstack developer,https://hh.ru/vacancy/38957749,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22bf,"Technical Support Engineer (C++, Nx Meta)",https://hh.ru/vacancy/35594122,3500,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c8,Аналитик BI,https://hh.ru/vacancy/37388360,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22c9,"Аналитик-разработчик BI, Data Engineer",https://hh.ru/vacancy/39125053,90000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cd,Ведущий разработчик ПО в области облачных технологий,https://hh.ru/vacancy/38722315,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22cf,Senior Product / Data Analyst,https://hh.ru/vacancy/31648507,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22d9,Программист С++/Python (встраиваемые системы),https://hh.ru/vacancy/38517047,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed22ec,Аналитик данных,https://hh.ru/vacancy/39160403,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2303,Помощник системного администратора / стажер,https://hh.ru/vacancy/38743330,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230a,Software Architect,https://hh.ru/vacancy/38909456,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed230b,Web аналитик,https://hh.ru/vacancy/38213193,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed232d,Преподаватель курсов по администрированию кластеров Hadoop/ NoSQL / BigData,https://hh.ru/vacancy/38825081,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2332,Senior Fullstack Engineer,https://hh.ru/vacancy/39173091,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2347,Middle / Senior Ruby on Rails developer,https://hh.ru/vacancy/38368442,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234d,QA Team Lead,https://hh.ru/vacancy/39114315,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed234e,Software Engineer (JVM Runtime),https://hh.ru/vacancy/26949605,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2357,Аналитик,https://hh.ru/vacancy/38687267,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237e,Разработчик / программист С++ (Middle С++ Developer),https://hh.ru/vacancy/38735108,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed237f,Реактивный разработчик на удаленку - React Native Developer (Middle),https://hh.ru/vacancy/38755553,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2383,Преподаватель по программированию в детский развивающий центр,https://hh.ru/vacancy/39018202,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed238f,Сетевой инженер (начинающий),https://hh.ru/vacancy/39132653,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2392,Разработчик С++,https://hh.ru/vacancy/38714762,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2398,Разработчик системного и встроенного ПО baremetal и Linux,https://hh.ru/vacancy/38862890,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23a8,Преподаватель индивидуальных консультаций по Python,https://hh.ru/vacancy/39082410,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23b3,Quantitative Researcher (Deep Research),https://hh.ru/vacancy/39102835,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c8,Ведущий разработчик / программист С++ (Senior С++ Developer),https://hh.ru/vacancy/39114917,220000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23c9,Лингвист-аналитик,https://hh.ru/vacancy/37963778,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23cb,DevOps Specialist (CI),https://hh.ru/vacancy/37854785,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d2,Младший эксперт по проектам Data Science,https://hh.ru/vacancy/39073126,20000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23d7,Программист-аналитик (middle),https://hh.ru/vacancy/38793916,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed23e0,Преподаватель детского программирования,https://hh.ru/vacancy/38890680,36000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2407,Senior Software Developer (WebStorm),https://hh.ru/vacancy/38828586,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2415,Системный инженер,https://hh.ru/vacancy/39005825,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2421,Системный администратор,https://hh.ru/vacancy/39097373,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2426,Ведущий сетевой инженер/инженер передачи данных,https://hh.ru/vacancy/39132997,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2429,Риск-менеджер,https://hh.ru/vacancy/38243210,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2431,Старший разработчик С++,https://hh.ru/vacancy/38714784,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2434,Инженер по телекоммуникациям,https://hh.ru/vacancy/37642920,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2458,Инженер по техническому сопровождению продаж,https://hh.ru/vacancy/39138183,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2483,Продуктовый аналитик,https://hh.ru/vacancy/39098909,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248c,Руководитель службы АСУ ТП/Инженер-программист приводных систем,https://hh.ru/vacancy/38779256,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed248e,Младший программист в отдел исследований,https://hh.ru/vacancy/37973265,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24b8,Специалист анализа и планирования клиентского сервиса,https://hh.ru/vacancy/39151214,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed24ce,Технический руководитель финтех проекта,https://hh.ru/vacancy/38730637,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed250f,Инфраструктурный разработчик (Software engineer in SRE),https://hh.ru/vacancy/37423159,180000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2524,Senior DevOps / Site Reliability Engineer,https://hh.ru/vacancy/39068778,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed252d,Senior System Administrator (OPS),https://hh.ru/vacancy/38601802,1800,,EUR,месяц,https://hh.ru
+5f5b64146bb6a1224fed254c,Director of Professional Services,https://hh.ru/vacancy/39158164,4000,,USD,месяц,https://hh.ru
+5f5b64146bb6a1224fed2550,Программист-аналитик (Senior),https://hh.ru/vacancy/38793843,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2598,Supply Chain Management Intern / Стажер в отдел логистики Procter&Gamble,https://hh.ru/vacancy/39064771,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25a7,Менеджер BIM-проектов,https://hh.ru/vacancy/39073542,105000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25b0,Data Engineer,https://hh.ru/vacancy/37401111,170000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25c4,Chief Operating Officer (COO),https://hh.ru/vacancy/39053305,300000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed25f5,"Big Data Engineer, г. Сочи",https://hh.ru/vacancy/38441128,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2614,Разработчик алгоритмов навигации летательных аппаратов,https://hh.ru/vacancy/39035328,40000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed262f,Программист-аналитик Управления казначейских операций,https://hh.ru/vacancy/39048111,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2634,DevOps-инженер,https://hh.ru/vacancy/38540878,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2635,Эксперт Linux (в Банк),https://hh.ru/vacancy/38933823,160000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2644,"Big Data Lead Engineer, г. Сочи",https://hh.ru/vacancy/38441101,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2655,"DevOps Hadoop Engineer (Системный инженер), г. Сочи",https://hh.ru/vacancy/38440386,140000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed266c,Стажер-тестировщик С++,https://hh.ru/vacancy/37889716,45000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2672,Ведущий методист/редактор по информатике,https://hh.ru/vacancy/39040307,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267d,Младший разработчик Frontend JS,https://hh.ru/vacancy/38989703,70000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed267f,Senior Backend разработчик (B2B),https://hh.ru/vacancy/38405613,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2687,Разработчик Frontend JS,https://hh.ru/vacancy/38990190,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b0,Senior java developer (команда архитектура),https://hh.ru/vacancy/37673991,250000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26b2,Системный администратор Linux,https://hh.ru/vacancy/34070953,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26ba,Старший инженер-разработчик С++ в отдел алгоритмической торговли,https://hh.ru/vacancy/38991709,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26be,Технический специалист | Администратор отдела медиабаинга,https://hh.ru/vacancy/38122797,60000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed26e0,Системный администратор,https://hh.ru/vacancy/38984407,110000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed270e,Data scientist /аналитик данных,https://hh.ru/vacancy/38915999,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2712,"Full stack разработчик (Python, React / Vue, PostgreSQL, Docker)",https://hh.ru/vacancy/38918505,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271a,Data Science / ASR разработчик (Middle),https://hh.ru/vacancy/38438420,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed271c,Инженер проектов,https://hh.ru/vacancy/38348021,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed272c,Аналитик Колл-центра,https://hh.ru/vacancy/38984332,120000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2731,Специалист технической поддержки,https://hh.ru/vacancy/38714073,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed277a,Ведущий специалист по тестированию,https://hh.ru/vacancy/37846293,150000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed2788,DevOps / Системный администратор-разработчик Linux,https://hh.ru/vacancy/38918563,130000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed279c,Backend developer (PHP),https://hh.ru/vacancy/38392632,200000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27a2,Senior Backend разработчик,https://hh.ru/vacancy/37790906,270000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27c3,DevOps specialist (cloud решения),https://hh.ru/vacancy/37854753,210000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27db,Ведущий аналитик,https://hh.ru/vacancy/38918065,80000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27ea,Ведущий специалист Отдела исследований и моделирования,https://hh.ru/vacancy/38931269,100000,,руб.,месяц,https://hh.ru
+5f5b64146bb6a1224fed27f9,Специалист анализа и планирования клиентского сервиса,https://superjob.ru/vakansii/specialist-analiza-i-planirovaniya-klientskogo-servisa-34505921.html,70000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed27fb,Программист,https://superjob.ru/vakansii/programmist-34373450.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed280d,Разработчик Oracle,https://superjob.ru/vakansii/razrabotchik-oracle-34304416.html,115000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2813,DevOps инженер / Linux инженер,https://superjob.ru/vakansii/devops-inzhener-34496173.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2814,Учитель информатики и ИКТ,https://superjob.ru/vakansii/uchitel-informatiki-i-ikt-30254613.html,80000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed2818,Системный администратор,https://superjob.ru/vakansii/sistemnyj-administrator-33088419.html,45000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed281f,"Web-программист, Web-разработчик (удалённо)",https://superjob.ru/vakansii/web-programmist-33921626.html,30000,,руб.,месяц,https://superjob.ru
+5f5b64146bb6a1224fed282a,Облачный инженер / Инженер систем хранения данных,https://superjob.ru/vakansii/oblachnyj-inzhener-33840080.html,150000,,руб.,месяц,https://superjob.ru
