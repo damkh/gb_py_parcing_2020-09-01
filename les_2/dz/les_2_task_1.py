@@ -192,7 +192,7 @@ all_vac += hh_search(search_vac)
 all_vac += sj_search(search_vac)
 
 all_vac_pd = pd.DataFrame(all_vac)
-all_vac_pd.to_csv('vacs.csv', index=False)
+all_vac_pd.to_csv('vacs_20200911.csv', index=False)
 
 
 # pprint(all_vac)

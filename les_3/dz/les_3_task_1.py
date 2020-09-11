@@ -18,6 +18,16 @@ def csv_to_list(path):
 
 
 vacs = csv_to_list('../../les_2/dz/vacs.csv')
+for el in vacs:
+    if el['sal_max']:
+        el['sal_max'] = int(el['sal_max'])
+    else:
+        el['sal_max'] = None
+    if el['sal_min']:
+        el['sal_min'] = int(el['sal_min'])
+    else:
+        el['sal_min'] = None
+
 
 # Инициализация MongoDB
 client = MongoClient('127.0.0.1', 27017)
