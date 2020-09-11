@@ -13,11 +13,13 @@ def greater_sal(sal_by_today_curr):
     res = []
     for sal_cur in sal_by_today_curr:
         # print(sal_cur)
-        for user in vacs_coll.find({'$or':
+        # print(f'sal: {sal_by_today_curr[sal_cur]}')
+        for vac in vacs_coll.find({'$or':
                                         [{'sal_min': {'$ne': None}, 'sal_max': {'$eq': None}},
                                          {'sal_max': {'$gt': sal_by_today_curr[sal_cur]}, 'sal_cur': {'$eq': sal_cur}},
                                          ]}):
-            res.append(user)
+            res.append(vac)
+            # print(vac)
     return res
 
 
@@ -56,17 +58,17 @@ client = MongoClient('127.0.0.1', 27017)
 db = client['vacs_db']
 vacs_coll = db.vacs_coll
 
-sal = int(input('Введите минимальную зарплату в месяц (в рублях): '))
-# sal = 400000
+# sal = int(input('Введите минимальную зарплату в месяц (в рублях): '))
+sal = 400000
 
 curs = get_cur()
 # Зарплата, конвертированная в валюты, найденные в вакансиях в базе
-sal_by_today_curr = convert_sal_to_curs(sal, curs)
-# sal_by_today_curr = {
-#     'руб.': sal,
-#     'USD': 0.011273 * sal,
-#     'EUR': 0.013365 * sal
-# }
+# sal_by_today_curr = convert_sal_to_curs(sal, curs)
+sal_by_today_curr = {
+    'руб.': sal,
+    'USD': 0.011273 * sal,
+    'EUR': 0.013365 * sal
+}
 
 search_vac = pd.DataFrame(greater_sal(sal_by_today_curr))
 search_vac.to_csv('search_vac.csv', index=False)

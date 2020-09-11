@@ -17,7 +17,7 @@ def csv_to_list(path):
     return vacs_list
 
 
-vacs = csv_to_list('../../les_2/dz/vacs.csv')
+vacs = csv_to_list('./vacs_20200911.csv')
 for el in vacs:
     if el['sal_max']:
         el['sal_max'] = int(el['sal_max'])
