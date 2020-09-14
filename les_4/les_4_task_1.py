@@ -10,9 +10,11 @@
 from pprint import pprint
 from lxml import html
 import requests
+from datetime import date,timedelta
 
 
-def search_lenat_ru():
+def search_lenta_ru():
+    main_link = 'https://lenta.ru'
     response = requests.get(main_link)
     root = html.fromstring(response.text)
     news_block = root.xpath(
@@ -47,9 +49,54 @@ def search_lenat_ru():
         # print(news_title, news_link, news_time, news_src)
 
 
+def search_yandex_ru():
+    main_link = 'https://yandex.ru/news/rubric/cosmos'
+    response = requests.get(main_link)
+    root = html.fromstring(response.text)
+    news_block = root.xpath(
+        "//div[@class='mg-grid__col mg-grid__col_xs_12 mg-grid__col_sm_9']/*/div[contains(@class, 'mg-grid__col mg-grid__col_xs_')]/article"
+    )
+
+    for news in news_block:
+        if 'mg-grid__col_xs_8' in news.attrib['class']:
+            news_title = news.xpath(".//div/a/h2/text()")[0]
+            news_src = news.xpath(
+                ".//div/div/div/div[@class='mg-card-source news-card__source']/span/a/text()"
+            )[0]
+            news_datetime = news.xpath(
+                ".//div/div/div/div[@class='mg-card-source news-card__source']/span/text()"
+            )[0]
+        else:
+            news_title = news.xpath(".//a/h2/text()")[0]
+            news_src = news.xpath(
+                ".//div/div/div[@class='mg-card-source news-card__source']/span/a/text()"
+            )[0]
+            news_datetime = news.xpath(
+                ".//div/div/div[@class='mg-card-source news-card__source']/span/text()"
+            )[0]
+        news_link = news.xpath(".//*/*/a/@href")[0]
+
+        if len(news_datetime) == 5:
+            news_datetime = f'{date.today().isoformat()} {news_datetime}'
+        else:
+            news_datetime_split = news_datetime.split(' ')
+            if news_datetime_split[0] == 'вчера':
+                news_datetime = f"{(date.today() - timedelta(1)).isoformat()} {news_datetime_split[2]}"
+
+        news_dict = {
+            'Title': news_title,
+            'Datetime': news_datetime,
+            'Source': news_src,
+            'Link': news_link
+        }
+        all_news.append(news_dict)
+        # print(news_title, news_link, news_datetime, news_src)
+
+
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'}
-main_link = 'https://lenta.ru'
+
 all_news = []
-search_lenat_ru()
+# search_lenta_ru()
+search_yandex_ru()
 
 pprint(all_news)
