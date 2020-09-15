@@ -36,7 +36,7 @@ def search_lenta_ru():
             news_link = news_link_part
         else:
             news_src = main_link.split('/')[2]
-            news_link = main_link
+            news_link = main_link + news_link_part
 
         news_dict = {
             'Title': news_title,
@@ -93,10 +93,50 @@ def search_yandex_ru():
         # print(news_title, news_link, news_datetime, news_src)
 
 
+def search_mail_ru():
+    main_link = 'https://news.mail.ru'
+    response = requests.get(main_link)
+    root = html.fromstring(response.text)
+    news_block = root.xpath(
+        "//div[@class='daynews__item daynews__item_big'] | "
+        "//td[@class='daynews__items']/div[@class='daynews__item'] |"
+        "//ul[@class='list list_type_square list_half js-module']/li[@class='list__item']"
+    )
+
+    for news in news_block:
+        news_link = main_link + news.xpath(".//a/@href")[0]
+        news_response = requests.get(news_link)
+        news_root = html.fromstring(news_response.text)
+        header_block = news_root.xpath(
+            "//div[@class='breadcrumbs breadcrumbs_article js-ago-wrapper'] | "
+            "//div[@class='hdr hdr_collapse hdr_bold_huge hdr_lowercase meta-speakable-title']"
+        )
+        news_datetime = header_block[0].xpath(
+            ".//span/span/span[@class='note__text breadcrumbs__text js-ago']"
+        )[0].attrib['datetime']
+
+        news_src = header_block[0].xpath(
+            ".//span/span/a[@class='link color_gray breadcrumbs__link']/@href"
+        )[0].split('/')[2]
+
+        news_title = header_block[1].xpath(".//div/span/h1[@class='hdr__inner']/text()")[0]
+
+        news_dict = {
+            'Title': news_title,
+            'Datetime': news_datetime,
+            'Source': news_src,
+            'Link': news_link
+        }
+        all_news.append(news_dict)
+        # print(news_title, news_link, news_datetime, news_src)
+
+
 headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0'}
 
 all_news = []
-# search_lenta_ru()
+search_lenta_ru()
 search_yandex_ru()
+search_mail_ru()
 
 pprint(all_news)
+print(len(all_news))
