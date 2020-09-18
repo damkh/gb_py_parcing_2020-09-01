@@ -1,3 +1,8 @@
+"""
+1) Написать программу, которая собирает входящие письма из своего или тестового почтового ящика и сложить данные
+о письмах в базу данных (от кого, дата отправки, тема письма, текст письма полный)
+Логин тестового ящика: study.ai_172@mail.ru
+"""
 from selenium import webdriver
 import time
 from datetime import date
@@ -5,7 +10,7 @@ from pymongo import MongoClient
 
 driver = webdriver.Firefox('/opt/Webdriver')
 driver.get("http://mail.ru")
-#
+
 elem = driver.find_element_by_xpath("//input[@id='mailbox:login-input']")
 elem.send_keys('study.ai_172')
 elem.submit()
