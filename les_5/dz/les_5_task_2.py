@@ -19,7 +19,6 @@ db = client['mvideo_ru']
 hits = db.hits
 
 time.sleep(3)
-# hit_items = []
 while True:
     try:
         button = WebDriverWait(driver, 10).until(
@@ -44,6 +43,5 @@ while True:
                 'Product_price': float(data_dict['productPriceLocal']),
                 'Product_link': item_link
             }
-            # hit_items.append(hit_item_dict)
             hits.insert_one(hit_item_dict)
         break
