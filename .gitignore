@@ -2,3 +2,5 @@
 **/.ipynb
 **/.pyc
 **/.idea
+**/geckodriver
+**/geckodriver.log
