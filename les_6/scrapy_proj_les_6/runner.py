@@ -1,5 +1,6 @@
 from scrapy.crawler import CrawlerProcess
 from scrapy.settings import Settings
+from scrapy_proj_les_6.spiders.book24_ru import Book24RuSpider
 from scrapy_proj_les_6.spiders.labirint_ru import LabirintRuSpider
 from scrapy_proj_les_6 import settings
 
@@ -10,5 +11,6 @@ if __name__ == '__main__':
 
     process = CrawlerProcess(settings=crawler_settings)
     process.crawl(LabirintRuSpider)
+    process.crawl(Book24RuSpider)
 
     process.start()

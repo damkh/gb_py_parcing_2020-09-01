@@ -17,12 +17,12 @@ class ScrapyProjLes6Pipeline:
 
     def process_item(self, item, spider):
         book = {
-            'authors': self.proccess_none(item.get('authors')),
-            'title': self.proccess_title(item.get('title')),
+            'authors': self.process_none(item.get('authors')),
+            'title': self.process_title(item.get('title')),
             'main_price': self.process_float(item.get('main_price')),
             'discount_price': self.process_float(item.get('discount_price')),
             'rating': self.process_float(item.get('rating')),
-            'link': self.proccess_none(item.get('link'))
+            'link': self.process_none(item.get('link'))
         }
         collection = self.mongobase[spider.name]
         collection.insert_one(book)
@@ -31,21 +31,21 @@ class ScrapyProjLes6Pipeline:
 
     def process_float(self, val):
         try:
-            float_val = float(val)
+            float_val = float(val.replace(',', '.').replace('р.', '').replace(' ', ''))
             return float_val
         except:
             pass
 
 
-    def proccess_title(self, val):
+    def process_title(self, val):
         try:
             split_val = val.split('"')[1]
             return split_val
         except:
-            pass
+            return val
 
 
-    def proccess_none(self, val):
+    def process_none(self, val):
         if val:
             return val
         else:

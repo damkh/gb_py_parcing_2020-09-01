@@ -16,7 +16,6 @@ class LabirintRuSpider(scrapy.Spider):
         if next_page:
             yield response.follow(next_page, callback=self.parse)
 
-
     def bookpage_parse(self, response:HtmlResponse):
         link = response.url
         title = response.xpath("//span[@class='only_desc']/text()").extract_first() # .split('"')[1]
