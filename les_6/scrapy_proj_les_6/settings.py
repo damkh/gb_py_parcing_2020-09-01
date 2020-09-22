@@ -25,7 +25,7 @@ CONCURRENT_REQUESTS = 16
 # Configure a delay for requests for the same website (default: 0)
 # See https://docs.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-DOWNLOAD_DELAY = 0.5
+# DOWNLOAD_DELAY = 0.5
 # The download delay setting will honor only one of:
 # CONCURRENT_REQUESTS_PER_DOMAIN = 16
 # CONCURRENT_REQUESTS_PER_IP = 16
@@ -62,9 +62,9 @@ DOWNLOAD_DELAY = 0.5
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'scrapy_proj_les_6.pipelines.ScrapyProjLes6Pipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'scrapy_proj_les_6.pipelines.ScrapyProjLes6Pipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -90,3 +90,5 @@ DOWNLOAD_DELAY = 0.5
 LOG_ENABLED = True
 LOG_LEVEL = 'DEBUG'
 LOG_FILE = 'scrapy.log'
+# Принимать одинаковые ссылки
+DUPEFILTER_CLASS = 'scrapy.dupefilters.BaseDupeFilter'
