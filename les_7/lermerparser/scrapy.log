@@ -1,0 +1,2467 @@
+2020-09-25 08:41:19 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: lermerparser)
+2020-09-25 08:41:19 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.5 (default, Sep  3 2020, 06:33:09) - [GCC 6.3.0 20170516], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.1, Platform Linux-4.9.0-13-amd64-x86_64-with-glibc2.17
+2020-09-25 08:41:19 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2020-09-25 08:41:19 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'lermerparser',
+ 'CONCURRENT_REQUESTS': 12,
+ 'DOWNLOAD_DELAY': 1,
+ 'LOG_FILE': 'scrapy.log',
+ 'NEWSPIDER_MODULE': 'lermerparser.spiders',
+ 'SPIDER_MODULES': ['lermerparser.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64; rv:81.0) Gecko/20100101 '
+               'Firefox/81.0'}
+2020-09-25 08:41:19 [scrapy.extensions.telnet] INFO: Telnet Password: bbc246328a757ca2
+2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2020-09-25 08:41:20 [scrapy.middleware] INFO: Enabled item pipelines:
+['lermerparser.pipelines.LermerPhotosPipeline',
+ 'lermerparser.pipelines.LermerparserPipeline']
+2020-09-25 08:41:20 [scrapy.core.engine] INFO: Spider opened
+2020-09-25 08:41:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-09-25 08:41:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-09-25 08:41:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0> (referer: None)
+2020-09-25 08:41:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> (referer: None)
+2020-09-25 08:41:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> referred in <None>
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BlpImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BmpImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BufrStubImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing CurImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing DcxImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing DdsImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing EpsImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FitsStubImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FliImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FpxImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FtexImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GbrImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GifImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GribStubImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing Hdf5StubImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IcnsImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IcoImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing ImImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing ImtImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IptcImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing JpegImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing Jpeg2KImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing McIdasImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MicImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MpegImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MpoImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MspImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PalmImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PcdImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PcxImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PdfImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PixarImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PngImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PpmImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PsdImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SgiImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SpiderImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SunImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing TgaImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing TiffImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing WebPImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing WmfImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XbmImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XpmImagePlugin
+2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XVThumbImagePlugin
+2020-09-25 08:41:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> (referer: None)
+2020-09-25 08:41:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> referred in <None>
+2020-09-25 08:41:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> (referer: None)
+2020-09-25 08:41:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> referred in <None>
+2020-09-25 08:41:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> (referer: None)
+2020-09-25 08:41:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> referred in <None>
+2020-09-25 08:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/'],
+ 'photos': [{'checksum': 'd46483723389774975f28bb0b01ca705',
+             'path': 'full/8318390a6962af02040dd94ea12fc84d4970a1f8.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg'},
+            {'checksum': 'a19d239a77c0d79c760e80a009afd1ee',
+             'path': 'full/709be77b9596986772cfb6a8b66e2fdc540f790b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg'},
+            {'checksum': 'db0d40f39b1cad23a63de5cfe6aefdf4',
+             'path': 'full/cff6328bb44253d3aa69136d67e3ea619b6173cc.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg'},
+            {'checksum': '9c0b858072b84466184a8ee87387b040',
+             'path': 'full/e3e6542d6d49327d73fa5731578df5ef422fa286.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'Орех, орех',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет орех'}
+2020-09-25 08:41:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> (referer: None)
+2020-09-25 08:41:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> referred in <None>
+2020-09-25 08:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> (referer: None)
+2020-09-25 08:41:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> referred in <None>
+2020-09-25 08:41:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> (referer: None)
+2020-09-25 08:41:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> referred in <None>
+2020-09-25 08:41:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> (referer: None)
+2020-09-25 08:41:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> referred in <None>
+2020-09-25 08:41:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/'],
+ 'photos': [{'checksum': '16c8913f9ab475fdf82be78390bd3890',
+             'path': 'full/449bd87720f2d537199109834fce141114e7ffed.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg'},
+            {'checksum': 'f4de57b72a7035cc66c3483e818531e1',
+             'path': 'full/01dec679ad9a5edd7efac7e8f80adcebf27078b8.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg'},
+            {'checksum': '8410720758e8284efaa2105318b3b209',
+             'path': 'full/540494eb9ae334071b521587f9ed1dcef371de2c.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg'},
+            {'checksum': '6b1ef849e83a7d0b20d8935d21b47a7d',
+             'path': 'full/e894e9e45868de3968ecc5031765d00c9f0abbfd.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg'}],
+ 'price': [94.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.07',
+                         'Россия',
+                         'Тонирование',
+                         'Защитно-декоративное покрытие',
+                         'Жилое помещение, Двор',
+                         'Морилка акриловая для тонирования и защиты любых '
+                         'изделий из дерева, лозы, ротанга, мебели, элементов '
+                         'интерьера. Проникает глубоко в структуру '
+                         'окрашиваемой поверхности, придавая оттенки ценных '
+                         'пород древесины. Подчеркивает структуру дерева. '
+                         'Быстро высыхает. Является самостоятельным покрытием, '
+                         'в отличие от обычной морилки не требует '
+                         'обязательного покрытия лаком. Создает на поверхности '
+                         'матовую пленку, нанесение более 2- слоев придает '
+                         'полуматовый эффект. Может использоваться по коже в '
+                         'качестве финишного покрытия. После высыхания - '
+                         'атмосферостойкая, водостойкая. Наносить на '
+                         'поверхность любым удобным инструментом (кисть, '
+                         'губка). Время высыхания до отлипа - 25 мин. В случае '
+                         'поднятия ворса древесины поверхность подшкурить, '
+                         'очистить и нанести дополнительный слой морилки. Для '
+                         'получения интенсивных оттенков наносить морилку в '
+                         '2-3 слоя. Выдерживает 5 циклов заморозки - '
+                         'разморозки. При соблюдении условий хранения может '
+                         'использоваться по истечении срока годности.',
+                         'Без запаха',
+                         'Сосна, Сосна',
+                         'KOLERPARK',
+                         '0.5',
+                         '3, 3.0',
+                         '3',
+                         'Полуматовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         'Банка/Горшок',
+                         '36',
+                         'Морилка',
+                         'Моющийся',
+                         '80-110 мл/м²',
+                         'На водной основе',
+                         'Жёлтый / золотой',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет сосна'}
+2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> (referer: None)
+2020-09-25 08:41:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> referred in <None>
+2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> (referer: None)
+2020-09-25 08:41:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> referred in <None>
+2020-09-25 08:41:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> (referer: None)
+2020-09-25 08:41:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> referred in <None>
+2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> (referer: None)
+2020-09-25 08:41:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> referred in <None>
+2020-09-25 08:41:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/'],
+ 'photos': [{'checksum': '8bae169fe06098ccccd991f5fd6f47e7',
+             'path': 'full/cc3b73b25245303025c3fc5a6cf4d5c5a7cf310d.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg'},
+            {'checksum': 'eb6d33d5743c97f8b48258c05a8c3012',
+             'path': 'full/118940a541ffce7f706246b34c44c7d6a19d1df9.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg'},
+            {'checksum': '6c15b1b1d7dcce5265ad5668b4c45da8',
+             'path': 'full/0c42fb2adfc7d5d47ad784298a77fdce75bb4fa8.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg'},
+            {'checksum': 'c348d6d5f4430176d6d538e0aba91d67',
+             'path': 'full/f25669145bfd0f80f04b660857de6208f6c1f157.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg'}],
+ 'price': [94.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.064',
+                         'Россия',
+                         'Тонирование',
+                         'Защитно-декоративное покрытие',
+                         'Жилое помещение, Двор',
+                         'Морилка акриловая для тонирования и защиты любых '
+                         'изделий из дерева, лозы, ротанга, мебели, элементов '
+                         'интерьера. Проникает глубоко в структуру '
+                         'окрашиваемой поверхности, придавая оттенки ценных '
+                         'пород древесины. Подчеркивает структуру дерева. '
+                         'Быстро высыхает. Является самостоятельным покрытием, '
+                         'в отличие от обычной морилки не требует '
+                         'обязательного покрытия лаком. Создает на поверхности '
+                         'матовую пленку, нанесение более 2- слоев придает '
+                         'полуматовый эффект. Может использоваться по коже в '
+                         'качестве финишного покрытия. После высыхания - '
+                         'атмосферостойкая, водостойкая. Наносить на '
+                         'поверхность любым удобным инструментом (кисть, '
+                         'губка). Время высыхания до отлипа - 25 мин. В случае '
+                         'поднятия ворса древесины поверхность подшкурить, '
+                         'очистить и нанести дополнительный слой морилки. Для '
+                         'получения интенсивных оттенков наносить морилку в '
+                         '2-3 слоя. Выдерживает 5 циклов заморозки - '
+                         'разморозки. При соблюдении условий хранения может '
+                         'использоваться по истечении срока годности.',
+                         'Без запаха',
+                         'Бук',
+                         'KOLERPARK',
+                         '0.5',
+                         '3, 3.0',
+                         '3',
+                         'Полуматовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         'Банка/Горшок',
+                         '36',
+                         'Морилка',
+                         'Моющийся',
+                         '80-110 мл/м²',
+                         'На водной основе',
+                         'Бежевый',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет бук'}
+2020-09-25 08:41:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:41:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> (referer: None)
+2020-09-25 08:41:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> referred in <None>
+2020-09-25 08:41:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
+2020-09-25 08:41:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> (referer: None)
+2020-09-25 08:41:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> referred in <None>
+2020-09-25 08:41:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> (referer: None)
+2020-09-25 08:41:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> referred in <None>
+2020-09-25 08:41:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/'],
+ 'photos': [{'checksum': '6d0512b62928e7cabdbc049205d17f40',
+             'path': 'full/96374019732c52b57ba0e2c3dd2097fb1964a580.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg'},
+            {'checksum': 'cfbe8d869d8f0dcf0b67145b99162dcd',
+             'path': 'full/7266526bd82b0a7bcf4c0d666aeb9f94cdadae37.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg'},
+            {'checksum': '89ed2341d966d01233dce695414ef141',
+             'path': 'full/26b3edf9f813483e420b9f4e7f783f2ed167e898.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg'}],
+ 'price': [336.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Цветовая палитра',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.37',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Жилое помещение, Двор',
+                         'С запахом',
+                         'Темно-серый',
+                         'VIXEN',
+                         '0.5',
+                         '3',
+                         'Все типы древесины',
+                         'Аэрозоль',
+                         '36',
+                         'Серый / Серебристый',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Vixen 520 мл цвет тёмно-серый'}
+2020-09-25 08:41:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> (referer: None)
+2020-09-25 08:41:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> referred in <None>
+2020-09-25 08:41:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> (referer: None)
+2020-09-25 08:41:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> referred in <None>
+2020-09-25 08:41:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> (referer: None)
+2020-09-25 08:41:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> referred in <None>
+2020-09-25 08:41:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> (referer: None)
+2020-09-25 08:41:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> referred in <None>
+2020-09-25 08:41:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/'],
+ 'photos': [{'checksum': 'f686d9921d6c0b789e6126977059e09e',
+             'path': 'full/5f6ba5043c53f82e500193558982b81c0f72042f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/0b1cf99dc82c55acd7f1f918c53b3672f29db496.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg'},
+            {'checksum': '9808b0676a61079c4c6b31ab102c22c3',
+             'path': 'full/a2a789a2293275852217fbcb49979ef70c129db7.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/7e6b3ae95d4b26c432bff7cf54e33d9774bea232.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.5',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Орегон',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет орегон'}
+2020-09-25 08:41:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> (referer: None)
+2020-09-25 08:41:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> referred in <None>
+2020-09-25 08:41:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> (referer: None)
+2020-09-25 08:41:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> referred in <None>
+2020-09-25 08:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> (referer: None)
+2020-09-25 08:41:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> referred in <None>
+2020-09-25 08:41:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/'],
+ 'photos': [{'checksum': '943bc395f2148a2c3a17f66e1af7e015',
+             'path': 'full/b70fc54c1a469988fcbbef74fdf2662236721b49.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg'},
+            {'checksum': '90680da8853f51d845913742762df5c8',
+             'path': 'full/a1713296a44bb2d7472b6c549f3e7fabf01fbc4b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg'},
+            {'checksum': '89ed2341d966d01233dce695414ef141',
+             'path': 'full/b3a43d322fa86530f5e06b8c0f4c5e47a5ebf009.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg'}],
+ 'price': [336.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Цветовая палитра',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.37',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Жилое помещение, Двор',
+                         'С запахом',
+                         'Орех',
+                         'VIXEN',
+                         '0.5',
+                         '6',
+                         'Все типы древесины',
+                         'Аэрозоль',
+                         '36',
+                         'Морилка',
+                         'Оранжевый / медный',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Vixen 520 мл цвет орех'}
+2020-09-25 08:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> (referer: None)
+2020-09-25 08:41:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> referred in <None>
+2020-09-25 08:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> (referer: None)
+2020-09-25 08:41:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> referred in <None>
+2020-09-25 08:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> (referer: None)
+2020-09-25 08:41:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> referred in <None>
+2020-09-25 08:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/'],
+ 'photos': [{'checksum': 'edd17afd1e4c9792d790a096581be2a8',
+             'path': 'full/361e7cbd73ff06310e84c811d903bf586debd2a1.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg'},
+            {'checksum': 'f6234f48060bf7cb622b13643c988930',
+             'path': 'full/14fc4368eb3f545e4903494086c5bc141947e3ed.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg'},
+            {'checksum': '6863f1b9b495f6f16cd0e56cede169f6',
+             'path': 'full/b64e0465df2b8cb4597860250155d9d2c2077050.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg'}],
+ 'price': [336.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Цветовая палитра',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.37',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Жилое помещение, Двор',
+                         'С запахом',
+                         'Темный дуб',
+                         'VIXEN',
+                         '0.5',
+                         '6',
+                         'Все типы древесины',
+                         'Аэрозоль',
+                         '36',
+                         'Коричневый',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Vixen 520 мл цвет тёмный дуб'}
+2020-09-25 08:41:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> (referer: None)
+2020-09-25 08:41:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> referred in <None>
+2020-09-25 08:41:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> (referer: None)
+2020-09-25 08:41:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> referred in <None>
+2020-09-25 08:41:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> (referer: None)
+2020-09-25 08:41:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> referred in <None>
+2020-09-25 08:41:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> (referer: None)
+2020-09-25 08:41:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> referred in <None>
+2020-09-25 08:41:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/'],
+ 'photos': [{'checksum': 'a2152d0aa960f26789ea97b93e224baa',
+             'path': 'full/dffb425b67ac8d4c538b26e126ea8437abee6226.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/9cd652c5c69970ffcb697548f691835de87e9dda.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg'},
+            {'checksum': '2325ac9c46c3cd60b84f61642601bf4b',
+             'path': 'full/162fa304a6170eb6001c9aca561de296bf132c61.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/236a9c87e4bfeb596ced966d3a54b7f228079bbc.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.747',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Красное дерево',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет красное дерево'}
+2020-09-25 08:41:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> (referer: None)
+2020-09-25 08:41:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> referred in <None>
+2020-09-25 08:41:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> (referer: None)
+2020-09-25 08:41:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> referred in <None>
+2020-09-25 08:41:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> (referer: None)
+2020-09-25 08:41:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> referred in <None>
+2020-09-25 08:41:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> (referer: None)
+2020-09-25 08:41:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> referred in <None>
+2020-09-25 08:42:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/'],
+ 'photos': [{'checksum': '4cad2b2b57cadca411f36fdc7cebbc88',
+             'path': 'full/7171c3da6ed3152fb7159158c66b0dc7b5c32276.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg'},
+            {'checksum': '1a329cf7812b173ad7f996505503b12f',
+             'path': 'full/b319bd0cb2e1ddad5a18fefd2514d4201e74540c.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg'},
+            {'checksum': 'cdc597610702da3bc440a9ec2d866b29',
+             'path': 'full/94d51c28ae73a96df184413c75ab9f6ee8d6bf60.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg'},
+            {'checksum': '66b910ad5e21f587142d0c6d8e11d955',
+             'path': 'full/4bb9068f9268360af21dabb5b93935ca43b381de.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'Красное дерево, красное дерево',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет красное дерево'}
+2020-09-25 08:42:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> (referer: None)
+2020-09-25 08:42:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> referred in <None>
+2020-09-25 08:42:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> (referer: None)
+2020-09-25 08:42:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> referred in <None>
+2020-09-25 08:42:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> (referer: None)
+2020-09-25 08:42:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> referred in <None>
+2020-09-25 08:42:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> (referer: None)
+2020-09-25 08:42:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> referred in <None>
+2020-09-25 08:42:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/'],
+ 'photos': [{'checksum': 'd9c77944e894f4c5e65a4ef6d35a9bc6',
+             'path': 'full/53a7457a4312bda28186942e12e6d8461495674f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg'},
+            {'checksum': '643d40408ec5f2428f4b6e95d4d15fb3',
+             'path': 'full/4ecc2e90ed5a52157ffe6e2f29483208d9aabdd2.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg'},
+            {'checksum': '1f0ed5bc8f66efa8ac9753b37dbe1991',
+             'path': 'full/6c648d02233213a5cfe1c9e624e72be654ee2cb7.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg'},
+            {'checksum': '51db6b6594d8eb782bad383fd1470986',
+             'path': 'full/838c09198ae8cc940d2c6893d09051669e89f55a.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'Сосна, сосна',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет сосна'}
+2020-09-25 08:42:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> (referer: None)
+2020-09-25 08:42:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> referred in <None>
+2020-09-25 08:42:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
+2020-09-25 08:42:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> (referer: None)
+2020-09-25 08:42:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> referred in <None>
+2020-09-25 08:42:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> (referer: None)
+2020-09-25 08:42:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> referred in <None>
+2020-09-25 08:42:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/>
+{'description': 'Морилка водная «Латек» — жидкость для обработки натуральных '
+                'деревянных поверхностей. В результате пропитки материал '
+                'приобретает благородный коричневый оттенок, характерный для '
+                'лиственницы. Дерево сохраняет свою природную текстуру, '
+                'становясь при этом устойчивым к воздействию солнечных лучей и '
+                'влаги.Наносить морилку можно несколькими способами. При '
+                'напылении краскопультом образуется максимально ровная '
+                'текстура. С помощью классической кисти получается создать '
+                'более плотный слой. Можно также использовать валик, тампон, '
+                'ткань.\n'
+                'Обратите внимание: продукт имеет водную основу, поэтому не '
+                'защищает древесину от вредных микроорганизмов.',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/'],
+ 'photos': [{'checksum': '6d86f402a5795837134af1f0441a356b',
+             'path': 'full/2cdb115470a73a7299d322e7b9117247b4d66560.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg'},
+            {'checksum': '3f647e81fd2abac18e1e4a71a1e51ddd',
+             'path': 'full/227c9dba292144757a99ec7614e87d370d3e9aff.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg'},
+            {'checksum': '48a0346a65fe08cb5047a496122aacbc',
+             'path': 'full/ec00d00ad9fa66f5c5b78204ee795fcac9e16e93.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.503',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Лиственница',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка водная Латек цвет лиственница 0.5 л'}
+2020-09-25 08:42:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> (referer: None)
+2020-09-25 08:42:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> referred in <None>
+2020-09-25 08:42:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> (referer: None)
+2020-09-25 08:42:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> referred in <None>
+2020-09-25 08:42:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> (referer: None)
+2020-09-25 08:42:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> referred in <None>
+2020-09-25 08:42:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> (referer: None)
+2020-09-25 08:42:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> referred in <None>
+2020-09-25 08:42:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/'],
+ 'photos': [{'checksum': '38a2b1fbdae1fcc9b0270d89544d6e91',
+             'path': 'full/b96aee8ce51494af05c796873bee87c7a3a4c686.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg'},
+            {'checksum': '8834cae96e7f5171ee5ba4827c8bccd4',
+             'path': 'full/a0f0f57e4b1a179bb5710ba1672461437b789eff.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg'},
+            {'checksum': '8ab5f2d6b8bf024f7b5107cd25085784',
+             'path': 'full/257a803d3703d29323a336b9349bcd705d7d13fb.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg'},
+            {'checksum': 'bf4ece32e5112adcdfd141ca41cec947',
+             'path': 'full/6402c39472f67d90fcdd41f8f20b8254ec521131.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'махагон',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет махагон'}
+2020-09-25 08:42:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> (referer: None)
+2020-09-25 08:42:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> referred in <None>
+2020-09-25 08:42:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> (referer: None)
+2020-09-25 08:42:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> referred in <None>
+2020-09-25 08:42:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> (referer: None)
+2020-09-25 08:42:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> referred in <None>
+2020-09-25 08:42:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> (referer: None)
+2020-09-25 08:42:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> referred in <None>
+2020-09-25 08:42:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/'],
+ 'photos': [{'checksum': 'edb70c62b8e430b45b89d528a43bc6ae',
+             'path': 'full/4a88b8fcdabb48b80c25cadd817a654c69676763.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg'},
+            {'checksum': '7ffa7042a6ac0efd0f83dcd414388688',
+             'path': 'full/10fc632b8bb82e4801b4548909430135e79548c3.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg'},
+            {'checksum': 'd1b196f36d7834c9700f76062ffae34d',
+             'path': 'full/217b39e0c670fd280f1cbd0a1dad3a24094377fe.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg'},
+            {'checksum': 'd08c75805b30e1f335044eeb80a496ee',
+             'path': 'full/024b07ff885b030922eec6bd30dde44be35af75e.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg'}],
+ 'price': [94.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.062',
+                         'Россия',
+                         'Тонирование',
+                         'Защитно-декоративное покрытие',
+                         'Жилое помещение, Двор',
+                         'Морилка акриловая для тонирования и защиты любых '
+                         'изделий из дерева, лозы, ротанга, мебели, элементов '
+                         'интерьера. Проникает глубоко в структуру '
+                         'окрашиваемой поверхности, придавая оттенки ценных '
+                         'пород древесины. Подчеркивает структуру дерева. '
+                         'Быстро высыхает. Является самостоятельным покрытием, '
+                         'в отличие от обычной морилки не требует '
+                         'обязательного покрытия лаком. Создает на поверхности '
+                         'матовую пленку, нанесение более 2- слоев придает '
+                         'полуматовый эффект. Может использоваться по коже в '
+                         'качестве финишного покрытия. После высыхания - '
+                         'атмосферостойкая, водостойкая. Наносить на '
+                         'поверхность любым удобным инструментом (кисть, '
+                         'губка). Время высыхания до отлипа - 25 мин. В случае '
+                         'поднятия ворса древесины поверхность подшкурить, '
+                         'очистить и нанести дополнительный слой морилки. Для '
+                         'получения интенсивных оттенков наносить морилку в '
+                         '2-3 слоя. Выдерживает 5 циклов заморозки - '
+                         'разморозки. При соблюдении условий хранения может '
+                         'использоваться по истечении срока годности.',
+                         'Без запаха',
+                         'Орегон',
+                         'KOLERPARK',
+                         '0.5',
+                         '3, 3.0',
+                         '3',
+                         'Полуматовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         'Банка/Горшок',
+                         '36',
+                         'Морилка',
+                         'Моющийся',
+                         '80-110 мл/м²',
+                         'На водной основе',
+                         'Оранжевый / медный',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет орегон'}
+2020-09-25 08:42:20 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 66 pages/min), scraped 13 items (at 13 items/min)
+2020-09-25 08:42:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> (referer: None)
+2020-09-25 08:42:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> referred in <None>
+2020-09-25 08:42:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> (referer: None)
+2020-09-25 08:42:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> referred in <None>
+2020-09-25 08:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> (referer: None)
+2020-09-25 08:42:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> referred in <None>
+2020-09-25 08:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> (referer: None)
+2020-09-25 08:42:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> referred in <None>
+2020-09-25 08:42:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/'],
+ 'photos': [{'checksum': 'b5f47cbd4de8f3f571133e140e117f7c',
+             'path': 'full/39f1ff96ca8f1aedac20a5b141e89e27ee4e6fd1.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg'},
+            {'checksum': '821189d6e83c0a174af99e7026867bfd',
+             'path': 'full/96bb42fc4294d3059485cfb0a79ba892dd14a42e.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg'},
+            {'checksum': 'b51527a38c7a6702d7f5a7687e636f5a',
+             'path': 'full/bfcb4970e153e6c08d387b472e95050680a50c7a.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg'},
+            {'checksum': '8340f62035e4bed1eb9051eba51bc827',
+             'path': 'full/90548f6c0debed9a14164bcf7cb7b9363afe40ba.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg'}],
+ 'price': [94.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.067',
+                         'Россия',
+                         'Тонирование',
+                         'Защитно-декоративное покрытие',
+                         'Жилое помещение, Двор',
+                         'Морилка акриловая для тонирования и защиты любых '
+                         'изделий из дерева, лозы, ротанга, мебели, элементов '
+                         'интерьера. Проникает глубоко в структуру '
+                         'окрашиваемой поверхности, придавая оттенки ценных '
+                         'пород древесины. Подчеркивает структуру дерева. '
+                         'Быстро высыхает. Является самостоятельным покрытием, '
+                         'в отличие от обычной морилки не требует '
+                         'обязательного покрытия лаком. Бесцветным морилкам '
+                         'можно придать любые оттенки при помощи жидких '
+                         'пигментных концентратов "KolerPark". Может '
+                         'использоваться по коже в качестве финишного '
+                         'покрытия. После высыхания - атмосферостойкая, '
+                         'водостойкая. Наносить на поверхность любым удобным '
+                         'инструментом (кисть, губка). Время высыхания до '
+                         'отлипа - 25 мин. В случае поднятия ворса древесины '
+                         'поверхность подшкурить, очистить и нанести '
+                         'дополнительный слой морилки. Для получения '
+                         'интенсивных оттенков наносить морилку в 2-3 слоя. '
+                         'Выдерживает 5 циклов заморозки - разморозки. При '
+                         'соблюдении условий хранения может использоваться по '
+                         'истечении срока годности.',
+                         'Без запаха',
+                         'Бесцветный',
+                         'KOLERPARK',
+                         '0.5',
+                         '3, 3.0',
+                         '3',
+                         'Полуматовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         'Банка/Горшок',
+                         '36',
+                         'Морилка',
+                         'Моющийся',
+                         '80-110 мл/м²',
+                         'На водной основе',
+                         'Бесцветный / прозрачный',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева акриловая KolerPark 50 мл бесцветная'}
+2020-09-25 08:42:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> (referer: None)
+2020-09-25 08:42:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> referred in <None>
+2020-09-25 08:42:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> (referer: None)
+2020-09-25 08:42:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> referred in <None>
+2020-09-25 08:42:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> (referer: None)
+2020-09-25 08:42:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> referred in <None>
+2020-09-25 08:42:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> (referer: None)
+2020-09-25 08:42:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> referred in <None>
+2020-09-25 08:42:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/'],
+ 'photos': [{'checksum': 'b57ed3a6459922cd6ca922635bfb207a',
+             'path': 'full/eb84b1c727219f5ece0f428988c3728aa534ef21.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg'},
+            {'checksum': '30c036a6983c99ab53a3bac6b0e02155',
+             'path': 'full/6f2bbe3b5b71e9cc4239e493d52137cd71bb5876.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg'},
+            {'checksum': '6b793f46080d67f102ee9b0a328f1935',
+             'path': 'full/aac4baba3ba57645641ce58c98105ce80e7de379.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg'},
+            {'checksum': '837d7aa38e61591a9d60f3ae100426b6',
+             'path': 'full/506d1437960b1fd9cd7072a8f47f3ee8e82b8b90.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'лиственница',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет лиственница'}
+2020-09-25 08:42:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> (referer: None)
+2020-09-25 08:42:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> referred in <None>
+2020-09-25 08:42:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> (referer: None)
+2020-09-25 08:42:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> referred in <None>
+2020-09-25 08:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> (referer: None)
+2020-09-25 08:42:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> referred in <None>
+2020-09-25 08:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/>
+{'description': 'Морилка «Латек палисандр» предназначена для придания '
+                'древесине благородного оттенка и улучшения ее '
+                'эксплуатационных характеристик. Использование пропитки '
+                'увеличивает влагостойкость материала и его устойчивость к '
+                'влажной уборке, а также защищает дерево от древоточцев, '
+                'плесени и гнили. Применение морилки не только улучшает '
+                'декоративные характеристики древесины, но и продлевает срок '
+                'ее эксплуатации.Преимущества:',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/'],
+ 'photos': [{'checksum': '040c4651838bac05518dccbdfa77300c',
+             'path': 'full/0e61a4fd788216af84750f9fac0f30f859b78bc5.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg'},
+            {'checksum': 'e3ff08e54d104759b234af9d8c759de4',
+             'path': 'full/ec963b0cc1f49016625a2f50669817b4edb7f0bd.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg'},
+            {'checksum': '81bc5a1cd4e635a405b821c014caf69d',
+             'path': 'full/13bc442e7e36c050050b3afda65728d386e3c539.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.491',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Палисандр',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка водная цвета палисандр Латек 0.5 л'}
+2020-09-25 08:42:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> (referer: None)
+2020-09-25 08:42:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> referred in <None>
+2020-09-25 08:42:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> (referer: None)
+2020-09-25 08:42:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> referred in <None>
+2020-09-25 08:42:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> (referer: None)
+2020-09-25 08:42:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> referred in <None>
+2020-09-25 08:42:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> (referer: None)
+2020-09-25 08:42:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> referred in <None>
+2020-09-25 08:42:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/'],
+ 'photos': [{'checksum': 'e421955823db60809fd03484551b2ed6',
+             'path': 'full/3334dfa282450236d5525e5baab05a5aba0a8254.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/ee06f133996983336fbb3223ef8f3aaf3fc431da.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg'},
+            {'checksum': '6fd4687f0100c6e16673cab30fb96ea0',
+             'path': 'full/e277a0a782d33458edaf2604ce4c19d02b3ae845.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/ab9aae941cc9ab81d5b1acdaefdb2e0cb46b89b0.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.754',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Лиственница',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет лиственница'}
+2020-09-25 08:42:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> (referer: None)
+2020-09-25 08:42:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> referred in <None>
+2020-09-25 08:42:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> (referer: None)
+2020-09-25 08:42:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> referred in <None>
+2020-09-25 08:42:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> (referer: None)
+2020-09-25 08:42:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> referred in <None>
+2020-09-25 08:42:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/'],
+ 'photos': [{'checksum': '0803b8872c8def18cff8420030842c9f',
+             'path': 'full/b1460f2ff59990fca86ea39a4e88c71fffdc4e92.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg'},
+            {'checksum': 'c0d9e068064f19405c8119290a425206',
+             'path': 'full/4ec6cae9508e3c0df9affb9e7b61c8a9503e0349.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg'},
+            {'checksum': '89ed2341d966d01233dce695414ef141',
+             'path': 'full/38f4f6d9d25829e5c2ba9dac55133eaad46d3261.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg'}],
+ 'price': [336.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.363',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Жилое помещение, Двор',
+                         'С запахом',
+                         'Черный, Черный',
+                         'VIXEN',
+                         '0.5',
+                         '6',
+                         '3',
+                         'Полуматовый',
+                         'Защита',
+                         'Все типы древесины',
+                         'Аэрозоль',
+                         '36',
+                         'Морилка',
+                         'Черный',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Vixen 520 мл цвет чёрный'}
+2020-09-25 08:42:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> (referer: None)
+2020-09-25 08:42:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> referred in <None>
+2020-09-25 08:42:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> (referer: None)
+2020-09-25 08:42:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> referred in <None>
+2020-09-25 08:42:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> (referer: None)
+2020-09-25 08:42:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> referred in <None>
+2020-09-25 08:42:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/>
+{'description': 'Водная морилка «Латек» цвета мокко — декоративная пропитка '
+                'для сухой древесины. Покрытие наносят на лестничные '
+                'конструкции, полы, мебель. Производитель дополнил формулу '
+                'влагоотталкивающей добавкой, отказался от токсичных '
+                'компонентов. Состав не пахнет, ровно тонирует основу. '
+                'Насыщенный оттенок сокращает расход. Морилка глубоко '
+                'впитывается, сохраняя натуральную фактуру материала. Пропитка '
+                'исключает образование пленки, сочетается с защитными лаками. '
+                'Древесина после обработки выглядит естественно и '
+                'дорого.Преимущества:',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/'],
+ 'photos': [{'checksum': '70c1174871fa76824dd5a95a41e9c433',
+             'path': 'full/031fb4c6d623a2f707f8e519863b784b55375ff0.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg'},
+            {'checksum': '4f703788c18edc6c6fa3063a06495f10',
+             'path': 'full/de11af0a60606b73796786a0ba2947097835059b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg'},
+            {'checksum': '52d1054d061939b17cbe5a7cb27bdb65',
+             'path': 'full/b214c5db9e997028b6dda1995e55733914aab5d3.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.495',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Мокко',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На водной основе'],
+ 'title': 'Морилка водная цвета мокко Латек 0.5 л'}
+2020-09-25 08:42:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> (referer: None)
+2020-09-25 08:42:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> referred in <None>
+2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> (referer: None)
+2020-09-25 08:42:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> referred in <None>
+2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> (referer: None)
+2020-09-25 08:42:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> referred in <None>
+2020-09-25 08:42:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/'],
+ 'photos': [{'checksum': '2b905a5e5ada2e2e40d570dcec957274',
+             'path': 'full/a5b60867ff7640f3bdbe33b777fdf7a6ce923c32.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg'},
+            {'checksum': 'af4b74ed40ec7f57bd506c3d7ccf25f2',
+             'path': 'full/c8b930f317de9d3ecf5c2bf6cfa1255a0bc47857.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg'},
+            {'checksum': '89ed2341d966d01233dce695414ef141',
+             'path': 'full/2ef2df279ec2c18341094926ba5ebaa634e4bda7.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg'}],
+ 'price': [336.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Цветовая палитра',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.37',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Жилое помещение, Двор',
+                         'С запахом',
+                         'Темный орех',
+                         'VIXEN',
+                         '0.5',
+                         '6',
+                         'Все типы древесины',
+                         'Аэрозоль',
+                         '36',
+                         'Коричневый',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Vixen 520 мл цвет тёмный орех'}
+2020-09-25 08:42:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> (referer: None)
+2020-09-25 08:42:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> referred in <None>
+2020-09-25 08:42:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> (referer: None)
+2020-09-25 08:42:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> referred in <None>
+2020-09-25 08:42:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> (referer: None)
+2020-09-25 08:42:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> referred in <None>
+2020-09-25 08:42:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> (referer: None)
+2020-09-25 08:42:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> referred in <None>
+2020-09-25 08:42:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/'],
+ 'photos': [{'checksum': '90458b59487b90b7b2f709fa4cb8d126',
+             'path': 'full/12b9c45148117408a288035ac6f357d92e3d4283.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/2a3fa7414237f988b68ba7f661208330b39bb957.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg'},
+            {'checksum': '7a90a62e84e6a4b39fc28cd812bee2e9',
+             'path': 'full/8b4df072a8745813a721accff126c5630197ef52.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/a1866f2f68600764056c48e1a0ea7105edfbafbe.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.758',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Мокко',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет мокко'}
+2020-09-25 08:42:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> (referer: None)
+2020-09-25 08:42:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> referred in <None>
+2020-09-25 08:42:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> (referer: None)
+2020-09-25 08:42:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> referred in <None>
+2020-09-25 08:42:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> (referer: None)
+2020-09-25 08:42:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> referred in <None>
+2020-09-25 08:42:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> (referer: None)
+2020-09-25 08:42:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> referred in <None>
+2020-09-25 08:42:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/'],
+ 'photos': [{'checksum': '50cf5d0c93298c9f6f61ff89423ae40c',
+             'path': 'full/50cd52443c8712efab71a35eb0c4adbe1c607311.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg'},
+            {'checksum': '6386d0821af77a14694a5e2137ca3928',
+             'path': 'full/828bfaae4fd47f9a3225624a921aca347f5aa206.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg'},
+            {'checksum': 'a8bfcbb2af8f942932da501ad55231d1',
+             'path': 'full/15b2bd3e2bdba59bb55a25bfa0dcadcf10a132fc.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg'},
+            {'checksum': 'f5b9e12e98ee57929c8c8edbe6d953f2',
+             'path': 'full/89020c74d8a39b49d280262256b8e8bfbabf7e74.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg'}],
+ 'price': [94.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Цветовая палитра',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.066',
+                         'Россия',
+                         'Тонирование',
+                         'Защитно-декоративное покрытие',
+                         'Жилое помещение, Двор',
+                         'Морилка акриловая для тонирования и защиты любых '
+                         'изделий из дерева, лозы, ротанга, мебели, элементов '
+                         'интерьера. Проникает глубоко в структуру '
+                         'окрашиваемой поверхности, придавая оттенки ценных '
+                         'пород древесины. Подчеркивает структуру дерева. '
+                         'Быстро высыхает. Является самостоятельным покрытием, '
+                         'в отличие от обычной морилки не требует '
+                         'обязательного покрытия лаком. Создает на поверхности '
+                         'матовую пленку, нанесение более 2- слоев придает '
+                         'полуматовый эффект. Может использоваться по коже в '
+                         'качестве финишного покрытия. После высыхания - '
+                         'атмосферостойкая, водостойкая. Наносить на '
+                         'поверхность любым удобным инструментом (кисть, '
+                         'губка). Время высыхания до отлипа - 25 мин. В случае '
+                         'поднятия ворса древесины поверхность подшкурить, '
+                         'очистить и нанести дополнительный слой морилки. Для '
+                         'получения интенсивных оттенков наносить морилку в '
+                         '2-3 слоя. Выдерживает 5 циклов заморозки - '
+                         'разморозки. При соблюдении условий хранения может '
+                         'использоваться по истечении срока годности.',
+                         'Без запаха',
+                         'Венге',
+                         'KOLERPARK',
+                         '0.5',
+                         '3, 3.0',
+                         '3',
+                         'Полуматовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         'Банка/Горшок',
+                         '36',
+                         'Морилка',
+                         'Моющийся',
+                         '80-110 мл/м²',
+                         'На водной основе',
+                         'Коричневый',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет венге'}
+2020-09-25 08:43:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> (referer: None)
+2020-09-25 08:43:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> referred in <None>
+2020-09-25 08:43:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> (referer: None)
+2020-09-25 08:43:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> referred in <None>
+2020-09-25 08:43:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> (referer: None)
+2020-09-25 08:43:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> referred in <None>
+2020-09-25 08:43:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> (referer: None)
+2020-09-25 08:43:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> referred in <None>
+2020-09-25 08:43:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/'],
+ 'photos': [{'checksum': 'b06837b23e8b2830bdce6182c508b53a',
+             'path': 'full/5be35f49599e77dae8a36b48aa98fe6d67625f2c.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/47ce6ebdb281dad0af08cf26931a2fa92de8e9c7.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg'},
+            {'checksum': 'd845140c404f831333c4db20b0dd254e',
+             'path': 'full/dbe55f1577fae07c68c3cd9b9dff960ad1dbf849.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/02cfea94388650978b37543bd7c1f1e3a6623f12.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.5',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Орех',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На алкидной основе'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет орех'}
+2020-09-25 08:43:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> (referer: None)
+2020-09-25 08:43:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> referred in <None>
+2020-09-25 08:43:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> (referer: None)
+2020-09-25 08:43:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> referred in <None>
+2020-09-25 08:43:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> (referer: None)
+2020-09-25 08:43:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> referred in <None>
+2020-09-25 08:43:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/>
+{'description': 'Водная морилка «Латек» используется для обработки натуральной '
+                'древесины, ее тонирования и выделения текстуры волокон. '
+                'Морилка с оттенком массива дуба не выгорает на солнечном '
+                'свете и равномерно наносится на поверхность. Высокая '
+                'влагостойкость состава позволяет использовать его для '
+                'обработки любых деталей мебели и конструкций.Преимущества:В '
+                'интернет-каталоге Leroy Merlin вы сможете найти любые '
+                'материалы и средства для обработки и пропитки деталей из '
+                'древесины по демократичной цене Приятных покупок в наших '
+                'магазинах!',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/'],
+ 'photos': [{'checksum': '914e63a5767283bbb2104e38beece276',
+             'path': 'full/84125666056b081b18e9701aaf1b3c54bf3b4fe2.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg'},
+            {'checksum': 'edc117423f511f64dcdf927e7003ed75',
+             'path': 'full/ebff75e080ff70e564a1226b57c54fb4e4df1fe4.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg'},
+            {'checksum': '92408249fcdc14e658f03c5840d94118',
+             'path': 'full/c52f9440e7a975bb1dea65201139c023c1aa7f4c.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.5',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Дуб',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На водной основе'],
+ 'title': 'Морилка водная цвета дуб Латек 0.5 л'}
+2020-09-25 08:43:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> (referer: None)
+2020-09-25 08:43:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> referred in <None>
+2020-09-25 08:43:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:43:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> (referer: None)
+2020-09-25 08:43:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> referred in <None>
+2020-09-25 08:43:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:43:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> (referer: None)
+2020-09-25 08:43:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> referred in <None>
+2020-09-25 08:43:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:43:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> (referer: None)
+2020-09-25 08:43:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> referred in <None>
+2020-09-25 08:43:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/'],
+ 'photos': [{'checksum': '3dccc9bc57882f08e00f8db75c1c27b9',
+             'path': 'full/2c17c4b1114a923abf5010e7ed95f44dc797644a.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/df8e0b95e930cfa077b96f7bcd374d3fbd9ed48b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg'},
+            {'checksum': '5f3c53455087685972fcf94c24daee36',
+             'path': 'full/56aca928a69e2ab2a0b86e1ce7fe64da71729f02.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/8d7e6d58fdde39dfe642e4fd200f7743cd217a20.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.751',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Клен',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет клен'}
+2020-09-25 08:43:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> (referer: None)
+2020-09-25 08:43:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> referred in <None>
+2020-09-25 08:43:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> (referer: None)
+2020-09-25 08:43:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> referred in <None>
+2020-09-25 08:43:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> (referer: None)
+2020-09-25 08:43:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> referred in <None>
+2020-09-25 08:43:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/>
+{'description': 'Водная морилка «Латек» предназначена для декоративной '
+                'обработки деревянных поверхностей. Это одно из самых '
+                'популярных отделочных средств, благодаря своей невысокой '
+                'цене, легкости применения и отличному качеству. Морилка может '
+                'использоваться в столярных, ремонтных и отделочных работах '
+                'для пропитки плинтусов, наличников, перил, дверей, окон и '
+                'других изделий из дерева или фанеры. Обработанная поверхность '
+                'приобретает красивый, благородный оттенок махагона, рисунок '
+                'древесины становится более выразительным и '
+                'четким.Преимущества:',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/'],
+ 'photos': [{'checksum': '5ccdcccf32ffcddf0d5774acd700d0d6',
+             'path': 'full/854fcb82bae88179c91d5f2e80636b327d7ba256.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg'},
+            {'checksum': '6420f4f4c95c9a6b62ed1c75198686cf',
+             'path': 'full/99ed1971d4bdc699ede8011be839ab24003f0ff5.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg'},
+            {'checksum': 'fa71ffe5953a3979a010b0cb7823749f',
+             'path': 'full/18a39c9cda69124d8df66c00f4dee22d14d39d67.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.501',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Махагон',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На водной основе'],
+ 'title': 'Морилка водная цвета махагон Латек 0.5 л'}
+2020-09-25 08:43:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> (referer: None)
+2020-09-25 08:43:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> referred in <None>
+2020-09-25 08:43:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> (referer: None)
+2020-09-25 08:43:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> referred in <None>
+2020-09-25 08:43:20 [scrapy.extensions.logstats] INFO: Crawled 128 pages (at 62 pages/min), scraped 26 items (at 13 items/min)
+2020-09-25 08:43:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> (referer: None)
+2020-09-25 08:43:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> referred in <None>
+2020-09-25 08:43:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> (referer: None)
+2020-09-25 08:43:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> referred in <None>
+2020-09-25 08:43:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/'],
+ 'photos': [{'checksum': 'fd4f14cf981d554859e07f1a57771139',
+             'path': 'full/a84367900dcb61cb8752b77e16de1964f2c720a1.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg'},
+            {'checksum': 'b834450f026975d5d8592fd2e1981bb8',
+             'path': 'full/a5bc8a17a713ec81a210b6895c3f61b734ae2b3f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg'},
+            {'checksum': '7ea0a6af8bfc703a2076f92f95292958',
+             'path': 'full/4d1ebaa92104d569c973ef74819eaceb5722782b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg'},
+            {'checksum': '65f0769d9fefcc102b694e842c3ba4bb',
+             'path': 'full/9f020d22c3090a8ce9bdf34a67cc5afb32f5f248.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'эбеновое дерево',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет эбеновое дерево'}
+2020-09-25 08:43:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> (referer: None)
+2020-09-25 08:43:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> referred in <None>
+2020-09-25 08:43:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> (referer: None)
+2020-09-25 08:43:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> referred in <None>
+2020-09-25 08:43:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:43:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> (referer: None)
+2020-09-25 08:43:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> referred in <None>
+2020-09-25 08:43:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 08:43:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> (referer: None)
+2020-09-25 08:43:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> referred in <None>
+2020-09-25 08:43:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/'],
+ 'photos': [{'checksum': '763427d6785b0a59a7a103bb783619dd',
+             'path': 'full/bae12dd230f21010ba5474c9078643fc5b27e14f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg'},
+            {'checksum': 'edeed010fdf3a7b4254250312b7980e2',
+             'path': 'full/b1b3d34603a2cd4ab1b7d81fa278d05b9d5f20ba.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg'},
+            {'checksum': '4e974312f09ea1a50851b356beb94abf',
+             'path': 'full/b89cad76c292a219a9ca9eecd8518ed1f3640c24.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg'},
+            {'checksum': 'b14acc95c13ccb5eba9a232dbe943c53',
+             'path': 'full/4d9e7692b27fc3fb131624ee69d8fd6cfffd972f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'мокко',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет мокко'}
+2020-09-25 08:43:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> (referer: None)
+2020-09-25 08:43:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> referred in <None>
+2020-09-25 08:43:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> (referer: None)
+2020-09-25 08:43:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> referred in <None>
+2020-09-25 08:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> (referer: None)
+2020-09-25 08:43:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> referred in <None>
+2020-09-25 08:43:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> (referer: None)
+2020-09-25 08:43:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> referred in <None>
+2020-09-25 08:43:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/'],
+ 'photos': [{'checksum': 'c0cc509092fdad0ea044f07c8ff00477',
+             'path': 'full/fa62beee37c248f800ccac50efcd844d8bc627d1.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/fffdea2dbe56334d96e55aa97c47249f0eb00998.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg'},
+            {'checksum': '850751bab96c4ee60350c10f3fe0e797',
+             'path': 'full/7e520870df2e12aa9c2482b8b265168c4b30dbc2.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/687507d7544aff2603106239c87f8e1a466684d3.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.754',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Дуб',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет дуб'}
+2020-09-25 08:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> (referer: None)
+2020-09-25 08:43:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> referred in <None>
+2020-09-25 08:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> (referer: None)
+2020-09-25 08:43:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> referred in <None>
+2020-09-25 08:43:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> (referer: None)
+2020-09-25 08:43:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> referred in <None>
+2020-09-25 08:43:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> (referer: None)
+2020-09-25 08:43:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> referred in <None>
+2020-09-25 08:43:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/'],
+ 'photos': [{'checksum': '8fe1f2d2ed923d2c2db98762fb807c73',
+             'path': 'full/01a10c4b4285564947e7540f19cbcbff77a009b2.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/5fafef70342e7ec955989f12cc6abffbc57ce58f.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg'},
+            {'checksum': '54a221772f6996a70a8c83a2d118179b',
+             'path': 'full/42d99e169e67016fad0ad936e94412b420a2142b.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/901ae709a6e729429d6ad6ad192efa69296f6373.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.5',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Дуб мореный',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет дуб мореный'}
+2020-09-25 08:43:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> (referer: None)
+2020-09-25 08:43:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> referred in <None>
+2020-09-25 08:43:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> (referer: None)
+2020-09-25 08:43:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> referred in <None>
+2020-09-25 08:43:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> (referer: None)
+2020-09-25 08:43:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> referred in <None>
+2020-09-25 08:43:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> (referer: None)
+2020-09-25 08:43:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> referred in <None>
+2020-09-25 08:43:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/'],
+ 'photos': [{'checksum': '82506b4ea8d8da9ff9260a70d51ebc90',
+             'path': 'full/a4d8d5f1733277d53e490fb886bc74430b1953df.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg'},
+            {'checksum': 'f817d26c72b36863e0285dc4940bdaec',
+             'path': 'full/4443c21f25dd64076bec32e18fa7f1b5f1426e32.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg'},
+            {'checksum': 'c0430ed79b4a390a6bc641fad08a8f23',
+             'path': 'full/76deb717078c6ecdebd9b55e3a6be362551ab6c5.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg'},
+            {'checksum': '2f5b4bc40dce9c29c939ff13bf4c5465',
+             'path': 'full/6ca1c7769ed1cbe5acc5a9b8c95385f42416da99.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg'}],
+ 'price': [30.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Гарантия (лет)',
+                         'Внешний вид',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Расход (в м² / л)',
+                         'Тип ЛКМ',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.525',
+                         'Россия',
+                         'Тонирование',
+                         'Для мебели и деревянных предметов',
+                         'Перед применением тщательно перемешать, наносить '
+                         'кистью/валиком. При t воздуха +5+30, влажности не '
+                         'выше 80%. Рекомендуется контрольное нанесение на '
+                         'небольшом участке.',
+                         'Без запаха',
+                         'Дуб, дуб',
+                         'УМНЫЙ РЕМОНТ',
+                         '0.25',
+                         '0.5, 40.0',
+                         'Отсутствует',
+                         'Матовый',
+                         'Декорирование',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         '80-120 г./м2',
+                         'На водной основе',
+                         'Умеренное использование',
+                         'Внешний / внутренний',
+                         'Дверь, Мебель, Окно, Терраса',
+                         'На водной основе'],
+ 'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет дуб'}
+2020-09-25 08:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> (referer: None)
+2020-09-25 08:43:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> referred in <None>
+2020-09-25 08:43:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> (referer: None)
+2020-09-25 08:43:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> referred in <None>
+2020-09-25 08:43:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> (referer: None)
+2020-09-25 08:43:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> referred in <None>
+2020-09-25 08:43:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> (referer: None)
+2020-09-25 08:43:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> referred in <None>
+2020-09-25 08:43:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/>
+{'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/'],
+ 'photos': [{'checksum': '9b37911bac7806b5dc3c7d766fb652c9',
+             'path': 'full/59607929ba28c8f996999e9b22330c8dc000850d.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg'},
+            {'checksum': '01124fdbb4dfbcb99227e1ed8549aaca',
+             'path': 'full/bbafae9d69a32c1ec5589b9a35e98b1dca1d05b4.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg'},
+            {'checksum': '7a90a62e84e6a4b39fc28cd812bee2e9',
+             'path': 'full/eae804e59e6ce3f27dc10c15e8cb885823dd95cf.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg'},
+            {'checksum': '325ac4b5b9d779c03e37b2511c53155e',
+             'path': 'full/90c860d9b9791d47282528952ae6208444c7bbdd.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg'}],
+ 'price': [68.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Использование',
+                         'Модель продукта',
+                         'Назначение',
+                         'Инструкция по применению',
+                         'Запах',
+                         'Цвет',
+                         'Марка',
+                         'Время высыхания между 2 слоями (ч)',
+                         'Время полного высыхания (ч)',
+                         'Тип использования',
+                         'Можно использовать на',
+                         'Объем (кг или л)',
+                         'Тип упаковки',
+                         'Срок годности (в месяцах)',
+                         'Тип продукта',
+                         'Рекомендации по чистке',
+                         'Расход (в м² / л)',
+                         'Износостойкость',
+                         'Место использования',
+                         'Предназначен для'],
+ 'specifications_vals': ['0.75',
+                         'Россия',
+                         'Тонирование и отделка',
+                         'Тонирование и защита',
+                         'Жилое помещение, Двор',
+                         'Перед покраской тщательно перемешать. Рекомендует-ся '
+                         'наносить 2 или более слоев для лучшей оптики '
+                         'по-верхности.',
+                         'С запахом',
+                         'Палисандр',
+                         'PROFILUX',
+                         '1',
+                         '2, 2.0',
+                         'Защита',
+                         'Все типы древесины',
+                         '0.5',
+                         'Бутылка',
+                         '24',
+                         'Морилка',
+                         'Моющийся',
+                         '8',
+                         'Умеренное использование',
+                         'Внутренний / наружный',
+                         'Мебель'],
+ 'title': 'Морилка для дерева Profilux 0.5 л цвет палисандр'}
+2020-09-25 08:43:47 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-09-25 08:43:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 59830,
+ 'downloader/request_count': 152,
+ 'downloader/request_method_count/GET': 152,
+ 'downloader/response_bytes': 21253276,
+ 'downloader/response_count': 152,
+ 'downloader/response_status_count/200': 152,
+ 'elapsed_time_seconds': 146.952567,
+ 'file_count': 118,
+ 'file_status_count/downloaded': 118,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2020, 9, 25, 5, 43, 47, 79374),
+ 'item_scraped_count': 32,
+ 'log_count/DEBUG': 349,
+ 'log_count/INFO': 12,
+ 'memusage/max': 1330167808,
+ 'memusage/startup': 1330167808,
+ 'request_depth_max': 2,
+ 'response_received_count': 152,
+ 'scheduler/dequeued': 34,
+ 'scheduler/dequeued/memory': 34,
+ 'scheduler/enqueued': 34,
+ 'scheduler/enqueued/memory': 34,
+ 'start_time': datetime.datetime(2020, 9, 25, 5, 41, 20, 126807)}
+2020-09-25 08:43:47 [scrapy.core.engine] INFO: Spider closed (finished)
