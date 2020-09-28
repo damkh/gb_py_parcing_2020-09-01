@@ -1,7 +1,7 @@
-2020-09-25 08:41:19 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: lermerparser)
-2020-09-25 08:41:19 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.5 (default, Sep  3 2020, 06:33:09) - [GCC 6.3.0 20170516], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.1, Platform Linux-4.9.0-13-amd64-x86_64-with-glibc2.17
-2020-09-25 08:41:19 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
-2020-09-25 08:41:19 [scrapy.crawler] INFO: Overridden settings:
+2020-09-25 11:46:55 [scrapy.utils.log] INFO: Scrapy 2.3.0 started (bot: lermerparser)
+2020-09-25 11:46:55 [scrapy.utils.log] INFO: Versions: lxml 4.5.2.0, libxml2 2.9.10, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.8.5 (default, Sep  3 2020, 06:33:09) - [GCC 6.3.0 20170516], pyOpenSSL 19.1.0 (OpenSSL 1.1.1g  21 Apr 2020), cryptography 3.1, Platform Linux-4.9.0-13-amd64-x86_64-with-glibc2.17
+2020-09-25 11:46:55 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.epollreactor.EPollReactor
+2020-09-25 11:46:55 [scrapy.crawler] INFO: Overridden settings:
 {'BOT_NAME': 'lermerparser',
  'CONCURRENT_REQUESTS': 12,
  'DOWNLOAD_DELAY': 1,
@@ -10,13 +10,13 @@
  'SPIDER_MODULES': ['lermerparser.spiders'],
  'USER_AGENT': 'Mozilla/5.0 (X11; Linux x86_64; rv:81.0) Gecko/20100101 '
                'Firefox/81.0'}
-2020-09-25 08:41:19 [scrapy.extensions.telnet] INFO: Telnet Password: bbc246328a757ca2
-2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled extensions:
+2020-09-25 11:46:55 [scrapy.extensions.telnet] INFO: Telnet Password: 2d0954886bf64512
+2020-09-25 11:46:55 [scrapy.middleware] INFO: Enabled extensions:
 ['scrapy.extensions.corestats.CoreStats',
  'scrapy.extensions.telnet.TelnetConsole',
  'scrapy.extensions.memusage.MemoryUsage',
  'scrapy.extensions.logstats.LogStats']
-2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+2020-09-25 11:46:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
 ['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
  'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
  'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
@@ -28,79 +28,78 @@
  'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
  'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
  'scrapy.downloadermiddlewares.stats.DownloaderStats']
-2020-09-25 08:41:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+2020-09-25 11:46:55 [scrapy.middleware] INFO: Enabled spider middlewares:
 ['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
  'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
  'scrapy.spidermiddlewares.referer.RefererMiddleware',
  'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
  'scrapy.spidermiddlewares.depth.DepthMiddleware']
-2020-09-25 08:41:20 [scrapy.middleware] INFO: Enabled item pipelines:
+2020-09-25 11:46:55 [scrapy.middleware] INFO: Enabled item pipelines:
 ['lermerparser.pipelines.LermerPhotosPipeline',
  'lermerparser.pipelines.LermerparserPipeline']
-2020-09-25 08:41:20 [scrapy.core.engine] INFO: Spider opened
-2020-09-25 08:41:20 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
-2020-09-25 08:41:20 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
-2020-09-25 08:41:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0> (referer: None)
-2020-09-25 08:41:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> (referer: None)
-2020-09-25 08:41:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> referred in <None>
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BlpImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BmpImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing BufrStubImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing CurImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing DcxImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing DdsImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing EpsImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FitsStubImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FliImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FpxImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing FtexImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GbrImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GifImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing GribStubImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing Hdf5StubImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IcnsImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IcoImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing ImImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing ImtImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing IptcImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing JpegImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing Jpeg2KImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing McIdasImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MicImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MpegImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MpoImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing MspImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PalmImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PcdImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PcxImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PdfImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PixarImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PngImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PpmImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing PsdImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SgiImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SpiderImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing SunImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing TgaImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing TiffImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing WebPImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing WmfImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XbmImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XpmImagePlugin
-2020-09-25 08:41:22 [PIL.Image] DEBUG: Importing XVThumbImagePlugin
-2020-09-25 08:41:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> (referer: None)
-2020-09-25 08:41:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> referred in <None>
-2020-09-25 08:41:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> (referer: None)
-2020-09-25 08:41:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> referred in <None>
-2020-09-25 08:41:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> (referer: None)
-2020-09-25 08:41:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> referred in <None>
-2020-09-25 08:41:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:26 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/>
+2020-09-25 11:46:55 [scrapy.core.engine] INFO: Spider opened
+2020-09-25 11:46:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2020-09-25 11:46:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2020-09-25 11:46:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0> (referer: None)
+2020-09-25 11:46:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:46:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> (referer: None)
+2020-09-25 11:46:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646.jpg> referred in <None>
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing BlpImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing BmpImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing BufrStubImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing CurImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing DcxImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing DdsImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing EpsImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing FitsStubImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing FliImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing FpxImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Image: failed to import FpxImagePlugin: No module named 'olefile'
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing FtexImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing GbrImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing GifImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing GribStubImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing Hdf5StubImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing IcnsImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing IcoImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing ImImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing ImtImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing IptcImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing JpegImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing Jpeg2KImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing McIdasImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing MicImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Image: failed to import MicImagePlugin: No module named 'olefile'
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing MpegImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing MpoImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing MspImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PalmImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PcdImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PcxImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PdfImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PixarImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PngImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PpmImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing PsdImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing SgiImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing SpiderImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing SunImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing TgaImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing TiffImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing WebPImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing WmfImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing XbmImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing XpmImagePlugin
+2020-09-25 11:46:57 [PIL.Image] DEBUG: Importing XVThumbImagePlugin
+2020-09-25 11:46:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:46:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> (referer: None)
+2020-09-25 11:46:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_01.jpg> referred in <None>
+2020-09-25 11:46:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> (referer: None)
+2020-09-25 11:46:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_02.jpg> referred in <None>
+2020-09-25 11:47:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> (referer: None)
+2020-09-25 11:47:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664646_03.jpg> referred in <None>
+2020-09-25 11:47:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-oreh-82664646/'],
  'photos': [{'checksum': 'd46483723389774975f28bb0b01ca705',
              'path': 'full/8318390a6962af02040dd94ea12fc84d4970a1f8.jpg',
@@ -171,18 +170,20 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет орех'}
-2020-09-25 08:41:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> (referer: None)
-2020-09-25 08:41:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> referred in <None>
-2020-09-25 08:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> (referer: None)
-2020-09-25 08:41:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> referred in <None>
-2020-09-25 08:41:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> (referer: None)
-2020-09-25 08:41:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> referred in <None>
-2020-09-25 08:41:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> (referer: None)
-2020-09-25 08:41:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> referred in <None>
-2020-09-25 08:41:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/>
+2020-09-25 11:47:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> (referer: None)
+2020-09-25 11:47:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677.jpg> referred in <None>
+2020-09-25 11:47:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> (referer: None)
+2020-09-25 11:47:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_01.jpg> referred in <None>
+2020-09-25 11:47:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> (referer: None)
+2020-09-25 11:47:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_02.jpg> referred in <None>
+2020-09-25 11:47:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> (referer: None)
+2020-09-25 11:47:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497677_03.jpg> referred in <None>
+2020-09-25 11:47:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-sosna-82497677/'],
  'photos': [{'checksum': '16c8913f9ab475fdf82be78390bd3890',
              'path': 'full/449bd87720f2d537199109834fce141114e7ffed.jpg',
@@ -271,20 +272,19 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет сосна'}
-2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> (referer: None)
-2020-09-25 08:41:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> referred in <None>
-2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> (referer: None)
-2020-09-25 08:41:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> referred in <None>
-2020-09-25 08:41:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> (referer: None)
-2020-09-25 08:41:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> referred in <None>
-2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> (referer: None)
-2020-09-25 08:41:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> referred in <None>
-2020-09-25 08:41:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/>
+2020-09-25 11:47:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> (referer: None)
+2020-09-25 11:47:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678.jpg> referred in <None>
+2020-09-25 11:47:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> (referer: None)
+2020-09-25 11:47:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_01.jpg> referred in <None>
+2020-09-25 11:47:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> (referer: None)
+2020-09-25 11:47:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_02.jpg> referred in <None>
+2020-09-25 11:47:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> (referer: None)
+2020-09-25 11:47:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497678_03.jpg> referred in <None>
+2020-09-25 11:47:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-buk-82497678/'],
  'photos': [{'checksum': '8bae169fe06098ccccd991f5fd6f47e7',
              'path': 'full/cc3b73b25245303025c3fc5a6cf4d5c5a7cf310d.jpg',
@@ -373,15 +373,15 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет бук'}
-2020-09-25 08:41:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:41:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> (referer: None)
-2020-09-25 08:41:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> referred in <None>
-2020-09-25 08:41:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
-2020-09-25 08:41:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> (referer: None)
-2020-09-25 08:41:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> referred in <None>
-2020-09-25 08:41:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> (referer: None)
-2020-09-25 08:41:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> referred in <None>
-2020-09-25 08:41:39 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/>
+2020-09-25 11:47:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> (referer: None)
+2020-09-25 11:47:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398.jpg> referred in <None>
+2020-09-25 11:47:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> (referer: None)
+2020-09-25 11:47:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_01.jpg> referred in <None>
+2020-09-25 11:47:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> (referer: None)
+2020-09-25 11:47:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432398_02.jpg> referred in <None>
+2020-09-25 11:47:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
+2020-09-25 11:47:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temno-seryy-82432398/'],
  'photos': [{'checksum': '6d0512b62928e7cabdbc049205d17f40',
              'path': 'full/96374019732c52b57ba0e2c3dd2097fb1964a580.jpg',
@@ -429,15 +429,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Vixen 520 мл цвет тёмно-серый'}
-2020-09-25 08:41:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> (referer: None)
-2020-09-25 08:41:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> referred in <None>
-2020-09-25 08:41:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> (referer: None)
-2020-09-25 08:41:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> referred in <None>
-2020-09-25 08:41:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> (referer: None)
-2020-09-25 08:41:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> referred in <None>
-2020-09-25 08:41:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> (referer: None)
-2020-09-25 08:41:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> referred in <None>
-2020-09-25 08:41:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/>
+2020-09-25 11:47:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> (referer: None)
+2020-09-25 11:47:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529.jpg> referred in <None>
+2020-09-25 11:47:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> (referer: None)
+2020-09-25 11:47:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_01.jpg> referred in <None>
+2020-09-25 11:47:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> (referer: None)
+2020-09-25 11:47:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_02.jpg> referred in <None>
+2020-09-25 11:47:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> (referer: None)
+2020-09-25 11:47:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496529_03.jpg> referred in <None>
+2020-09-25 11:47:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oregon-82496529/'],
  'photos': [{'checksum': 'f686d9921d6c0b789e6126977059e09e',
              'path': 'full/5f6ba5043c53f82e500193558982b81c0f72042f.jpg',
@@ -503,13 +503,13 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет орегон'}
-2020-09-25 08:41:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> (referer: None)
-2020-09-25 08:41:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> referred in <None>
-2020-09-25 08:41:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> (referer: None)
-2020-09-25 08:41:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> referred in <None>
-2020-09-25 08:41:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> (referer: None)
-2020-09-25 08:41:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> referred in <None>
-2020-09-25 08:41:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/>
+2020-09-25 11:47:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> (referer: None)
+2020-09-25 11:47:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399.jpg> referred in <None>
+2020-09-25 11:47:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> (referer: None)
+2020-09-25 11:47:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_01.jpg> referred in <None>
+2020-09-25 11:47:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> (referer: None)
+2020-09-25 11:47:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432399_02.jpg> referred in <None>
+2020-09-25 11:47:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-oreh-82432399/'],
  'photos': [{'checksum': '943bc395f2148a2c3a17f66e1af7e015',
              'path': 'full/b70fc54c1a469988fcbbef74fdf2662236721b49.jpg',
@@ -559,13 +559,13 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Vixen 520 мл цвет орех'}
-2020-09-25 08:41:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> (referer: None)
-2020-09-25 08:41:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> referred in <None>
-2020-09-25 08:41:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> (referer: None)
-2020-09-25 08:41:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> referred in <None>
-2020-09-25 08:41:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> (referer: None)
-2020-09-25 08:41:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> referred in <None>
-2020-09-25 08:41:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/>
+2020-09-25 11:47:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> (referer: None)
+2020-09-25 11:47:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397.jpg> referred in <None>
+2020-09-25 11:47:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> (referer: None)
+2020-09-25 11:47:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_01.jpg> referred in <None>
+2020-09-25 11:47:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> (referer: None)
+2020-09-25 11:47:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432397_02.jpg> referred in <None>
+2020-09-25 11:47:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-dub-82432397/'],
  'photos': [{'checksum': 'edd17afd1e4c9792d790a096581be2a8',
              'path': 'full/361e7cbd73ff06310e84c811d903bf586debd2a1.jpg',
@@ -613,15 +613,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Vixen 520 мл цвет тёмный дуб'}
-2020-09-25 08:41:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> (referer: None)
-2020-09-25 08:41:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> referred in <None>
-2020-09-25 08:41:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> (referer: None)
-2020-09-25 08:41:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> referred in <None>
-2020-09-25 08:41:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> (referer: None)
-2020-09-25 08:41:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> referred in <None>
-2020-09-25 08:41:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> (referer: None)
-2020-09-25 08:41:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> referred in <None>
-2020-09-25 08:41:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/>
+2020-09-25 11:47:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> (referer: None)
+2020-09-25 11:47:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526.jpg> referred in <None>
+2020-09-25 11:47:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> (referer: None)
+2020-09-25 11:47:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_01.jpg> referred in <None>
+2020-09-25 11:47:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> (referer: None)
+2020-09-25 11:47:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_02.jpg> referred in <None>
+2020-09-25 11:47:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> (referer: None)
+2020-09-25 11:47:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496526_03.jpg> referred in <None>
+2020-09-25 11:47:31 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-krasnoe-derevo-82496526/'],
  'photos': [{'checksum': 'a2152d0aa960f26789ea97b93e224baa',
              'path': 'full/dffb425b67ac8d4c538b26e126ea8437abee6226.jpg',
@@ -689,15 +689,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет красное дерево'}
-2020-09-25 08:41:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> (referer: None)
-2020-09-25 08:41:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> referred in <None>
-2020-09-25 08:41:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> (referer: None)
-2020-09-25 08:41:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> referred in <None>
-2020-09-25 08:41:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> (referer: None)
-2020-09-25 08:41:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> referred in <None>
-2020-09-25 08:41:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> (referer: None)
-2020-09-25 08:41:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> referred in <None>
-2020-09-25 08:42:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/>
+2020-09-25 11:47:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> (referer: None)
+2020-09-25 11:47:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642.jpg> referred in <None>
+2020-09-25 11:47:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> (referer: None)
+2020-09-25 11:47:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_01.jpg> referred in <None>
+2020-09-25 11:47:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> (referer: None)
+2020-09-25 11:47:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_02.jpg> referred in <None>
+2020-09-25 11:47:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> (referer: None)
+2020-09-25 11:47:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664642_03.jpg> referred in <None>
+2020-09-25 11:47:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-krasnoe-derevo-82664642/'],
  'photos': [{'checksum': '4cad2b2b57cadca411f36fdc7cebbc88',
              'path': 'full/7171c3da6ed3152fb7159158c66b0dc7b5c32276.jpg',
@@ -768,15 +768,15 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет красное дерево'}
-2020-09-25 08:42:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> (referer: None)
-2020-09-25 08:42:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> referred in <None>
-2020-09-25 08:42:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> (referer: None)
-2020-09-25 08:42:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> referred in <None>
-2020-09-25 08:42:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> (referer: None)
-2020-09-25 08:42:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> referred in <None>
-2020-09-25 08:42:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> (referer: None)
-2020-09-25 08:42:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> referred in <None>
-2020-09-25 08:42:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/>
+2020-09-25 11:47:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> (referer: None)
+2020-09-25 11:47:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647.jpg> referred in <None>
+2020-09-25 11:47:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> (referer: None)
+2020-09-25 11:47:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_01.jpg> referred in <None>
+2020-09-25 11:47:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> (referer: None)
+2020-09-25 11:47:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_02.jpg> referred in <None>
+2020-09-25 11:47:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> (referer: None)
+2020-09-25 11:47:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664647_03.jpg> referred in <None>
+2020-09-25 11:47:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-sosna-82664647/'],
  'photos': [{'checksum': 'd9c77944e894f4c5e65a4ef6d35a9bc6',
              'path': 'full/53a7457a4312bda28186942e12e6d8461495674f.jpg',
@@ -847,16 +847,15 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет сосна'}
-2020-09-25 08:42:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> (referer: None)
-2020-09-25 08:42:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> referred in <None>
-2020-09-25 08:42:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
-2020-09-25 08:42:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> (referer: None)
-2020-09-25 08:42:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> referred in <None>
-2020-09-25 08:42:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> (referer: None)
-2020-09-25 08:42:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> referred in <None>
-2020-09-25 08:42:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/>
+2020-09-25 11:47:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0&page=2)
+2020-09-25 11:47:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> (referer: None)
+2020-09-25 11:47:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760.jpg> referred in <None>
+2020-09-25 11:47:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> (referer: None)
+2020-09-25 11:47:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_01.jpg> referred in <None>
+2020-09-25 11:47:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> (referer: None)
+2020-09-25 11:47:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/18552760_02.jpg> referred in <None>
+2020-09-25 11:47:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-latek-cvet-listvennica-0-5-l-18552760/>
 {'description': 'Морилка водная «Латек» — жидкость для обработки натуральных '
                 'деревянных поверхностей. В результате пропитки материал '
                 'приобретает благородный коричневый оттенок, характерный для '
@@ -898,15 +897,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка водная Латек цвет лиственница 0.5 л'}
-2020-09-25 08:42:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> (referer: None)
-2020-09-25 08:42:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> referred in <None>
-2020-09-25 08:42:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> (referer: None)
-2020-09-25 08:42:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> referred in <None>
-2020-09-25 08:42:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> (referer: None)
-2020-09-25 08:42:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> referred in <None>
-2020-09-25 08:42:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> (referer: None)
-2020-09-25 08:42:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> referred in <None>
-2020-09-25 08:42:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/>
+2020-09-25 11:47:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> (referer: None)
+2020-09-25 11:47:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644.jpg> referred in <None>
+2020-09-25 11:47:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> (referer: None)
+2020-09-25 11:47:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_01.jpg> referred in <None>
+2020-09-25 11:47:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> (referer: None)
+2020-09-25 11:47:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_02.jpg> referred in <None>
+2020-09-25 11:47:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> (referer: None)
+2020-09-25 11:47:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664644_03.jpg> referred in <None>
+2020-09-25 11:47:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mahagon-82664644/'],
  'photos': [{'checksum': '38a2b1fbdae1fcc9b0270d89544d6e91',
              'path': 'full/b96aee8ce51494af05c796873bee87c7a3a4c686.jpg',
@@ -977,15 +976,17 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет махагон'}
-2020-09-25 08:42:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> (referer: None)
-2020-09-25 08:42:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> referred in <None>
-2020-09-25 08:42:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> (referer: None)
-2020-09-25 08:42:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> referred in <None>
-2020-09-25 08:42:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> (referer: None)
-2020-09-25 08:42:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> referred in <None>
-2020-09-25 08:42:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> (referer: None)
-2020-09-25 08:42:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> referred in <None>
-2020-09-25 08:42:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/>
+2020-09-25 11:47:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> (referer: None)
+2020-09-25 11:47:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680.jpg> referred in <None>
+2020-09-25 11:47:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> (referer: None)
+2020-09-25 11:47:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_01.jpg> referred in <None>
+2020-09-25 11:47:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> (referer: None)
+2020-09-25 11:47:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_02.jpg> referred in <None>
+2020-09-25 11:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> (referer: None)
+2020-09-25 11:47:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497680_03.jpg> referred in <None>
+2020-09-25 11:47:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-oregon-82497680/'],
  'photos': [{'checksum': 'edb70c62b8e430b45b89d528a43bc6ae',
              'path': 'full/4a88b8fcdabb48b80c25cadd817a654c69676763.jpg',
@@ -1074,18 +1075,16 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет орегон'}
-2020-09-25 08:42:20 [scrapy.extensions.logstats] INFO: Crawled 66 pages (at 66 pages/min), scraped 13 items (at 13 items/min)
-2020-09-25 08:42:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> (referer: None)
-2020-09-25 08:42:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> referred in <None>
-2020-09-25 08:42:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> (referer: None)
-2020-09-25 08:42:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> referred in <None>
-2020-09-25 08:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> (referer: None)
-2020-09-25 08:42:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> referred in <None>
-2020-09-25 08:42:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> (referer: None)
-2020-09-25 08:42:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> referred in <None>
-2020-09-25 08:42:24 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/>
+2020-09-25 11:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> (referer: None)
+2020-09-25 11:47:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676.jpg> referred in <None>
+2020-09-25 11:47:55 [scrapy.extensions.logstats] INFO: Crawled 68 pages (at 68 pages/min), scraped 13 items (at 13 items/min)
+2020-09-25 11:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> (referer: None)
+2020-09-25 11:47:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_01.jpg> referred in <None>
+2020-09-25 11:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> (referer: None)
+2020-09-25 11:47:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_02.jpg> referred in <None>
+2020-09-25 11:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> (referer: None)
+2020-09-25 11:47:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497676_03.jpg> referred in <None>
+2020-09-25 11:47:58 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-bescvetnaya-82497676/'],
  'photos': [{'checksum': 'b5f47cbd4de8f3f571133e140e117f7c',
              'path': 'full/39f1ff96ca8f1aedac20a5b141e89e27ee4e6fd1.jpg',
@@ -1175,16 +1174,17 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева акриловая KolerPark 50 мл бесцветная'}
-2020-09-25 08:42:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> (referer: None)
-2020-09-25 08:42:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> referred in <None>
-2020-09-25 08:42:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> (referer: None)
-2020-09-25 08:42:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> referred in <None>
-2020-09-25 08:42:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> (referer: None)
-2020-09-25 08:42:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> referred in <None>
-2020-09-25 08:42:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> (referer: None)
-2020-09-25 08:42:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> referred in <None>
-2020-09-25 08:42:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/>
+2020-09-25 11:47:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:47:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> (referer: None)
+2020-09-25 11:47:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643.jpg> referred in <None>
+2020-09-25 11:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> (referer: None)
+2020-09-25 11:48:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_01.jpg> referred in <None>
+2020-09-25 11:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> (referer: None)
+2020-09-25 11:48:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_02.jpg> referred in <None>
+2020-09-25 11:48:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> (referer: None)
+2020-09-25 11:48:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664643_03.jpg> referred in <None>
+2020-09-25 11:48:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-listvennica-82664643/'],
  'photos': [{'checksum': 'b57ed3a6459922cd6ca922635bfb207a',
              'path': 'full/eb84b1c727219f5ece0f428988c3728aa534ef21.jpg',
@@ -1255,13 +1255,14 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет лиственница'}
-2020-09-25 08:42:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> (referer: None)
-2020-09-25 08:42:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> referred in <None>
-2020-09-25 08:42:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> (referer: None)
-2020-09-25 08:42:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> referred in <None>
-2020-09-25 08:42:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> (referer: None)
-2020-09-25 08:42:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> referred in <None>
-2020-09-25 08:42:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/>
+2020-09-25 11:48:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> (referer: None)
+2020-09-25 11:48:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358.jpg> referred in <None>
+2020-09-25 11:48:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> (referer: None)
+2020-09-25 11:48:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_01.jpg> referred in <None>
+2020-09-25 11:48:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> (referer: None)
+2020-09-25 11:48:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290358_02.jpg> referred in <None>
+2020-09-25 11:48:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-palisandr-latek-0-5-l-17290358/>
 {'description': 'Морилка «Латек палисандр» предназначена для придания '
                 'древесине благородного оттенка и улучшения ее '
                 'эксплуатационных характеристик. Использование пропитки '
@@ -1303,18 +1304,16 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка водная цвета палисандр Латек 0.5 л'}
-2020-09-25 08:42:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> (referer: None)
-2020-09-25 08:42:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> referred in <None>
-2020-09-25 08:42:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> (referer: None)
-2020-09-25 08:42:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> referred in <None>
-2020-09-25 08:42:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> (referer: None)
-2020-09-25 08:42:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> referred in <None>
-2020-09-25 08:42:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> (referer: None)
-2020-09-25 08:42:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> referred in <None>
-2020-09-25 08:42:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/>
+2020-09-25 11:48:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> (referer: None)
+2020-09-25 11:48:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527.jpg> referred in <None>
+2020-09-25 11:48:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> (referer: None)
+2020-09-25 11:48:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_01.jpg> referred in <None>
+2020-09-25 11:48:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> (referer: None)
+2020-09-25 11:48:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_02.jpg> referred in <None>
+2020-09-25 11:48:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> (referer: None)
+2020-09-25 11:48:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496527_03.jpg> referred in <None>
+2020-09-25 11:48:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-listvennica-82496527/'],
  'photos': [{'checksum': 'e421955823db60809fd03484551b2ed6',
              'path': 'full/3334dfa282450236d5525e5baab05a5aba0a8254.jpg',
@@ -1380,13 +1379,14 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет лиственница'}
-2020-09-25 08:42:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> (referer: None)
-2020-09-25 08:42:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> referred in <None>
-2020-09-25 08:42:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> (referer: None)
-2020-09-25 08:42:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> referred in <None>
-2020-09-25 08:42:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> (referer: None)
-2020-09-25 08:42:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> referred in <None>
-2020-09-25 08:42:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/>
+2020-09-25 11:48:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> (referer: None)
+2020-09-25 11:48:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396.jpg> referred in <None>
+2020-09-25 11:48:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> (referer: None)
+2020-09-25 11:48:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_01.jpg> referred in <None>
+2020-09-25 11:48:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> (referer: None)
+2020-09-25 11:48:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432396_02.jpg> referred in <None>
+2020-09-25 11:48:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-chernyy-82432396/'],
  'photos': [{'checksum': '0803b8872c8def18cff8420030842c9f',
              'path': 'full/b1460f2ff59990fca86ea39a4e88c71fffdc4e92.jpg',
@@ -1444,13 +1444,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Vixen 520 мл цвет чёрный'}
-2020-09-25 08:42:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> (referer: None)
-2020-09-25 08:42:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> referred in <None>
-2020-09-25 08:42:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> (referer: None)
-2020-09-25 08:42:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> referred in <None>
-2020-09-25 08:42:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> (referer: None)
-2020-09-25 08:42:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> referred in <None>
-2020-09-25 08:42:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/>
+2020-09-25 11:48:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> (referer: None)
+2020-09-25 11:48:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331.jpg> referred in <None>
+2020-09-25 11:48:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> (referer: None)
+2020-09-25 11:48:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_01.jpg> referred in <None>
+2020-09-25 11:48:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> (referer: None)
+2020-09-25 11:48:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290331_02.jpg> referred in <None>
+2020-09-25 11:48:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mokko-latek-0-5-l-17290331/>
 {'description': 'Водная морилка «Латек» цвета мокко — декоративная пропитка '
                 'для сухой древесины. Покрытие наносят на лестничные '
                 'конструкции, полы, мебель. Производитель дополнил формулу '
@@ -1494,16 +1496,13 @@
                          'Мебель',
                          'На водной основе'],
  'title': 'Морилка водная цвета мокко Латек 0.5 л'}
-2020-09-25 08:42:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> (referer: None)
-2020-09-25 08:42:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> referred in <None>
-2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> (referer: None)
-2020-09-25 08:42:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> referred in <None>
-2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> (referer: None)
-2020-09-25 08:42:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> referred in <None>
-2020-09-25 08:42:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/>
+2020-09-25 11:48:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> (referer: None)
+2020-09-25 11:48:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400.jpg> referred in <None>
+2020-09-25 11:48:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> (referer: None)
+2020-09-25 11:48:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_01.jpg> referred in <None>
+2020-09-25 11:48:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> (referer: None)
+2020-09-25 11:48:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82432400_02.jpg> referred in <None>
+2020-09-25 11:48:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vixen-520-ml-cvet-temnyy-oreh-82432400/'],
  'photos': [{'checksum': '2b905a5e5ada2e2e40d570dcec957274',
              'path': 'full/a5b60867ff7640f3bdbe33b777fdf7a6ce923c32.jpg',
@@ -1551,17 +1550,15 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Vixen 520 мл цвет тёмный орех'}
-2020-09-25 08:42:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> (referer: None)
-2020-09-25 08:42:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> referred in <None>
-2020-09-25 08:42:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:42:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> (referer: None)
-2020-09-25 08:42:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> referred in <None>
-2020-09-25 08:42:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> (referer: None)
-2020-09-25 08:42:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> referred in <None>
-2020-09-25 08:42:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> (referer: None)
-2020-09-25 08:42:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> referred in <None>
-2020-09-25 08:42:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/>
+2020-09-25 11:48:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> (referer: None)
+2020-09-25 11:48:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528.jpg> referred in <None>
+2020-09-25 11:48:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> (referer: None)
+2020-09-25 11:48:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_01.jpg> referred in <None>
+2020-09-25 11:48:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> (referer: None)
+2020-09-25 11:48:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_02.jpg> referred in <None>
+2020-09-25 11:48:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> (referer: None)
+2020-09-25 11:48:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496528_03.jpg> referred in <None>
+2020-09-25 11:48:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-mokko-82496528/'],
  'photos': [{'checksum': '90458b59487b90b7b2f709fa4cb8d126',
              'path': 'full/12b9c45148117408a288035ac6f357d92e3d4283.jpg',
@@ -1627,15 +1624,18 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет мокко'}
-2020-09-25 08:42:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> (referer: None)
-2020-09-25 08:42:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> referred in <None>
-2020-09-25 08:42:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> (referer: None)
-2020-09-25 08:42:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> referred in <None>
-2020-09-25 08:42:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> (referer: None)
-2020-09-25 08:42:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> referred in <None>
-2020-09-25 08:42:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> (referer: None)
-2020-09-25 08:42:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> referred in <None>
-2020-09-25 08:42:59 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/>
+2020-09-25 11:48:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> (referer: None)
+2020-09-25 11:48:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679.jpg> referred in <None>
+2020-09-25 11:48:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> (referer: None)
+2020-09-25 11:48:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_01.jpg> referred in <None>
+2020-09-25 11:48:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> (referer: None)
+2020-09-25 11:48:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_02.jpg> referred in <None>
+2020-09-25 11:48:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> (referer: None)
+2020-09-25 11:48:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82497679_03.jpg> referred in <None>
+2020-09-25 11:48:35 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-akrilovaya-kolerpark-50-ml-cvet-venge-82497679/'],
  'photos': [{'checksum': '50cf5d0c93298c9f6f61ff89423ae40c',
              'path': 'full/50cd52443c8712efab71a35eb0c4adbe1c607311.jpg',
@@ -1724,15 +1724,65 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева акриловая KolerPark 50 мл цвет венге'}
-2020-09-25 08:43:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> (referer: None)
-2020-09-25 08:43:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> referred in <None>
-2020-09-25 08:43:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> (referer: None)
-2020-09-25 08:43:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> referred in <None>
-2020-09-25 08:43:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> (referer: None)
-2020-09-25 08:43:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> referred in <None>
-2020-09-25 08:43:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> (referer: None)
-2020-09-25 08:43:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> referred in <None>
-2020-09-25 08:43:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/>
+2020-09-25 11:48:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> (referer: None)
+2020-09-25 11:48:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> referred in <None>
+2020-09-25 11:48:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> (referer: None)
+2020-09-25 11:48:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> referred in <None>
+2020-09-25 11:48:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> (referer: None)
+2020-09-25 11:48:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> referred in <None>
+2020-09-25 11:48:38 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/>
+{'description': 'Водная морилка «Латек» используется для обработки натуральной '
+                'древесины, ее тонирования и выделения текстуры волокон. '
+                'Морилка с оттенком массива дуба не выгорает на солнечном '
+                'свете и равномерно наносится на поверхность. Высокая '
+                'влагостойкость состава позволяет использовать его для '
+                'обработки любых деталей мебели и конструкций.Преимущества:В '
+                'интернет-каталоге Leroy Merlin вы сможете найти любые '
+                'материалы и средства для обработки и пропитки деталей из '
+                'древесины по демократичной цене Приятных покупок в наших '
+                'магазинах!',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/'],
+ 'photos': [{'checksum': '914e63a5767283bbb2104e38beece276',
+             'path': 'full/84125666056b081b18e9701aaf1b3c54bf3b4fe2.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg'},
+            {'checksum': 'edc117423f511f64dcdf927e7003ed75',
+             'path': 'full/ebff75e080ff70e564a1226b57c54fb4e4df1fe4.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg'},
+            {'checksum': '92408249fcdc14e658f03c5840d94118',
+             'path': 'full/c52f9440e7a975bb1dea65201139c023c1aa7f4c.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.5',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Дуб',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На водной основе'],
+ 'title': 'Морилка водная цвета дуб Латек 0.5 л'}
+2020-09-25 11:48:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> (referer: None)
+2020-09-25 11:48:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530.jpg> referred in <None>
+2020-09-25 11:48:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> (referer: None)
+2020-09-25 11:48:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_01.jpg> referred in <None>
+2020-09-25 11:48:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> (referer: None)
+2020-09-25 11:48:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_02.jpg> referred in <None>
+2020-09-25 11:48:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> (referer: None)
+2020-09-25 11:48:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496530_03.jpg> referred in <None>
+2020-09-25 11:48:43 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-oreh-82496530/'],
  'photos': [{'checksum': 'b06837b23e8b2830bdce6182c508b53a',
              'path': 'full/5be35f49599e77dae8a36b48aa98fe6d67625f2c.jpg',
@@ -1800,68 +1850,17 @@
                          'Мебель',
                          'На алкидной основе'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет орех'}
-2020-09-25 08:43:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> (referer: None)
-2020-09-25 08:43:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg> referred in <None>
-2020-09-25 08:43:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> (referer: None)
-2020-09-25 08:43:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg> referred in <None>
-2020-09-25 08:43:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> (referer: None)
-2020-09-25 08:43:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg> referred in <None>
-2020-09-25 08:43:08 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/>
-{'description': 'Водная морилка «Латек» используется для обработки натуральной '
-                'древесины, ее тонирования и выделения текстуры волокон. '
-                'Морилка с оттенком массива дуба не выгорает на солнечном '
-                'свете и равномерно наносится на поверхность. Высокая '
-                'влагостойкость состава позволяет использовать его для '
-                'обработки любых деталей мебели и конструкций.Преимущества:В '
-                'интернет-каталоге Leroy Merlin вы сможете найти любые '
-                'материалы и средства для обработки и пропитки деталей из '
-                'древесины по демократичной цене Приятных покупок в наших '
-                'магазинах!',
- 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-dub-latek-0-5-l-17290323/'],
- 'photos': [{'checksum': '914e63a5767283bbb2104e38beece276',
-             'path': 'full/84125666056b081b18e9701aaf1b3c54bf3b4fe2.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323.jpg'},
-            {'checksum': 'edc117423f511f64dcdf927e7003ed75',
-             'path': 'full/ebff75e080ff70e564a1226b57c54fb4e4df1fe4.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_01.jpg'},
-            {'checksum': '92408249fcdc14e658f03c5840d94118',
-             'path': 'full/c52f9440e7a975bb1dea65201139c023c1aa7f4c.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290323_02.jpg'}],
- 'price': [27.0],
- 'specifications_keys': ['Вес, кг',
-                         'Страна производства',
-                         'Назначение',
-                         'Цвет',
-                         'Марка',
-                         'Тип продукта',
-                         'Место использования',
-                         'Предназначен для',
-                         'Состав'],
- 'specifications_vals': ['0.5',
-                         'Россия',
-                         'Жилое помещение, Двор',
-                         'Дуб',
-                         'ЛАТЕК',
-                         'Морилка',
-                         'Внутренний / наружный',
-                         'Мебель',
-                         'На водной основе'],
- 'title': 'Морилка водная цвета дуб Латек 0.5 л'}
-2020-09-25 08:43:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> (referer: None)
-2020-09-25 08:43:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> referred in <None>
-2020-09-25 08:43:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:43:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> (referer: None)
-2020-09-25 08:43:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> referred in <None>
-2020-09-25 08:43:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:43:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> (referer: None)
-2020-09-25 08:43:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> referred in <None>
-2020-09-25 08:43:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:43:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> (referer: None)
-2020-09-25 08:43:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> referred in <None>
-2020-09-25 08:43:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/>
+2020-09-25 11:48:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> (referer: None)
+2020-09-25 11:48:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532.jpg> referred in <None>
+2020-09-25 11:48:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> (referer: None)
+2020-09-25 11:48:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_01.jpg> referred in <None>
+2020-09-25 11:48:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> (referer: None)
+2020-09-25 11:48:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_02.jpg> referred in <None>
+2020-09-25 11:48:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> (referer: None)
+2020-09-25 11:48:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496532_03.jpg> referred in <None>
+2020-09-25 11:48:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-klen-82496532/'],
  'photos': [{'checksum': '3dccc9bc57882f08e00f8db75c1c27b9',
              'path': 'full/2c17c4b1114a923abf5010e7ed95f44dc797644a.jpg',
@@ -1927,66 +1926,15 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет клен'}
-2020-09-25 08:43:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> (referer: None)
-2020-09-25 08:43:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> referred in <None>
-2020-09-25 08:43:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> (referer: None)
-2020-09-25 08:43:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> referred in <None>
-2020-09-25 08:43:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> (referer: None)
-2020-09-25 08:43:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> referred in <None>
-2020-09-25 08:43:17 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/>
-{'description': 'Водная морилка «Латек» предназначена для декоративной '
-                'обработки деревянных поверхностей. Это одно из самых '
-                'популярных отделочных средств, благодаря своей невысокой '
-                'цене, легкости применения и отличному качеству. Морилка может '
-                'использоваться в столярных, ремонтных и отделочных работах '
-                'для пропитки плинтусов, наличников, перил, дверей, окон и '
-                'других изделий из дерева или фанеры. Обработанная поверхность '
-                'приобретает красивый, благородный оттенок махагона, рисунок '
-                'древесины становится более выразительным и '
-                'четким.Преимущества:',
- 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/'],
- 'photos': [{'checksum': '5ccdcccf32ffcddf0d5774acd700d0d6',
-             'path': 'full/854fcb82bae88179c91d5f2e80636b327d7ba256.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg'},
-            {'checksum': '6420f4f4c95c9a6b62ed1c75198686cf',
-             'path': 'full/99ed1971d4bdc699ede8011be839ab24003f0ff5.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg'},
-            {'checksum': 'fa71ffe5953a3979a010b0cb7823749f',
-             'path': 'full/18a39c9cda69124d8df66c00f4dee22d14d39d67.jpg',
-             'status': 'downloaded',
-             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg'}],
- 'price': [27.0],
- 'specifications_keys': ['Вес, кг',
-                         'Страна производства',
-                         'Назначение',
-                         'Цвет',
-                         'Марка',
-                         'Тип продукта',
-                         'Место использования',
-                         'Предназначен для',
-                         'Состав'],
- 'specifications_vals': ['0.501',
-                         'Россия',
-                         'Жилое помещение, Двор',
-                         'Махагон',
-                         'ЛАТЕК',
-                         'Морилка',
-                         'Внутренний / наружный',
-                         'Мебель',
-                         'На водной основе'],
- 'title': 'Морилка водная цвета махагон Латек 0.5 л'}
-2020-09-25 08:43:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> (referer: None)
-2020-09-25 08:43:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> referred in <None>
-2020-09-25 08:43:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> (referer: None)
-2020-09-25 08:43:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> referred in <None>
-2020-09-25 08:43:20 [scrapy.extensions.logstats] INFO: Crawled 128 pages (at 62 pages/min), scraped 26 items (at 13 items/min)
-2020-09-25 08:43:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> (referer: None)
-2020-09-25 08:43:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> referred in <None>
-2020-09-25 08:43:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> (referer: None)
-2020-09-25 08:43:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> referred in <None>
-2020-09-25 08:43:22 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/>
+2020-09-25 11:48:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> (referer: None)
+2020-09-25 11:48:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648.jpg> referred in <None>
+2020-09-25 11:48:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> (referer: None)
+2020-09-25 11:48:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_01.jpg> referred in <None>
+2020-09-25 11:48:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> (referer: None)
+2020-09-25 11:48:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_02.jpg> referred in <None>
+2020-09-25 11:48:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> (referer: None)
+2020-09-25 11:48:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664648_03.jpg> referred in <None>
+2020-09-25 11:48:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-ebenovoe-derevo-82664648/'],
  'photos': [{'checksum': 'fd4f14cf981d554859e07f1a57771139',
              'path': 'full/a84367900dcb61cb8752b77e16de1964f2c720a1.jpg',
@@ -2057,17 +2005,69 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет эбеновое дерево'}
-2020-09-25 08:43:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> (referer: None)
-2020-09-25 08:43:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> referred in <None>
-2020-09-25 08:43:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> (referer: None)
-2020-09-25 08:43:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> referred in <None>
-2020-09-25 08:43:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:43:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> (referer: None)
-2020-09-25 08:43:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> referred in <None>
-2020-09-25 08:43:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
-2020-09-25 08:43:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> (referer: None)
-2020-09-25 08:43:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> referred in <None>
-2020-09-25 08:43:27 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/>
+2020-09-25 11:48:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> (referer: None)
+2020-09-25 11:48:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg> referred in <None>
+2020-09-25 11:48:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> (referer: None)
+2020-09-25 11:48:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg> referred in <None>
+2020-09-25 11:48:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> (referer: None)
+2020-09-25 11:48:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg> referred in <None>
+2020-09-25 11:48:55 [scrapy.extensions.logstats] INFO: Crawled 131 pages (at 63 pages/min), scraped 26 items (at 13 items/min)
+2020-09-25 11:48:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/>
+{'description': 'Водная морилка «Латек» предназначена для декоративной '
+                'обработки деревянных поверхностей. Это одно из самых '
+                'популярных отделочных средств, благодаря своей невысокой '
+                'цене, легкости применения и отличному качеству. Морилка может '
+                'использоваться в столярных, ремонтных и отделочных работах '
+                'для пропитки плинтусов, наличников, перил, дверей, окон и '
+                'других изделий из дерева или фанеры. Обработанная поверхность '
+                'приобретает красивый, благородный оттенок махагона, рисунок '
+                'древесины становится более выразительным и '
+                'четким.Преимущества:',
+ 'link': ['https://leroymerlin.ru/product/morilka-vodnaya-cveta-mahagon-latek-0-5-l-17290340/'],
+ 'photos': [{'checksum': '5ccdcccf32ffcddf0d5774acd700d0d6',
+             'path': 'full/854fcb82bae88179c91d5f2e80636b327d7ba256.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340.jpg'},
+            {'checksum': '6420f4f4c95c9a6b62ed1c75198686cf',
+             'path': 'full/99ed1971d4bdc699ede8011be839ab24003f0ff5.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_01.jpg'},
+            {'checksum': 'fa71ffe5953a3979a010b0cb7823749f',
+             'path': 'full/18a39c9cda69124d8df66c00f4dee22d14d39d67.jpg',
+             'status': 'downloaded',
+             'url': 'https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/17290340_02.jpg'}],
+ 'price': [27.0],
+ 'specifications_keys': ['Вес, кг',
+                         'Страна производства',
+                         'Назначение',
+                         'Цвет',
+                         'Марка',
+                         'Тип продукта',
+                         'Место использования',
+                         'Предназначен для',
+                         'Состав'],
+ 'specifications_vals': ['0.501',
+                         'Россия',
+                         'Жилое помещение, Двор',
+                         'Махагон',
+                         'ЛАТЕК',
+                         'Морилка',
+                         'Внутренний / наружный',
+                         'Мебель',
+                         'На водной основе'],
+ 'title': 'Морилка водная цвета махагон Латек 0.5 л'}
+2020-09-25 11:48:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/> (referer: https://leroymerlin.ru/search/?q=%D0%BC%D0%BE%D1%80%D0%B8%D0%BB%D0%BA%D0%B0)
+2020-09-25 11:48:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> (referer: None)
+2020-09-25 11:48:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645.jpg> referred in <None>
+2020-09-25 11:48:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> (referer: None)
+2020-09-25 11:48:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_01.jpg> referred in <None>
+2020-09-25 11:48:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> (referer: None)
+2020-09-25 11:48:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_02.jpg> referred in <None>
+2020-09-25 11:49:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> (referer: None)
+2020-09-25 11:49:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664645_03.jpg> referred in <None>
+2020-09-25 11:49:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-mokko-82664645/'],
  'photos': [{'checksum': '763427d6785b0a59a7a103bb783619dd',
              'path': 'full/bae12dd230f21010ba5474c9078643fc5b27e14f.jpg',
@@ -2138,15 +2138,15 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет мокко'}
-2020-09-25 08:43:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> (referer: None)
-2020-09-25 08:43:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> referred in <None>
-2020-09-25 08:43:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> (referer: None)
-2020-09-25 08:43:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> referred in <None>
-2020-09-25 08:43:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> (referer: None)
-2020-09-25 08:43:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> referred in <None>
-2020-09-25 08:43:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> (referer: None)
-2020-09-25 08:43:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> referred in <None>
-2020-09-25 08:43:32 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/>
+2020-09-25 11:49:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> (referer: None)
+2020-09-25 11:49:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524.jpg> referred in <None>
+2020-09-25 11:49:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> (referer: None)
+2020-09-25 11:49:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_01.jpg> referred in <None>
+2020-09-25 11:49:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> (referer: None)
+2020-09-25 11:49:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_02.jpg> referred in <None>
+2020-09-25 11:49:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> (referer: None)
+2020-09-25 11:49:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496524_03.jpg> referred in <None>
+2020-09-25 11:49:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-82496524/'],
  'photos': [{'checksum': 'c0cc509092fdad0ea044f07c8ff00477',
              'path': 'full/fa62beee37c248f800ccac50efcd844d8bc627d1.jpg',
@@ -2212,15 +2212,15 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет дуб'}
-2020-09-25 08:43:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> (referer: None)
-2020-09-25 08:43:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> referred in <None>
-2020-09-25 08:43:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> (referer: None)
-2020-09-25 08:43:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> referred in <None>
-2020-09-25 08:43:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> (referer: None)
-2020-09-25 08:43:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> referred in <None>
-2020-09-25 08:43:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> (referer: None)
-2020-09-25 08:43:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> referred in <None>
-2020-09-25 08:43:37 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/>
+2020-09-25 11:49:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> (referer: None)
+2020-09-25 11:49:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525.jpg> referred in <None>
+2020-09-25 11:49:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> (referer: None)
+2020-09-25 11:49:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_01.jpg> referred in <None>
+2020-09-25 11:49:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> (referer: None)
+2020-09-25 11:49:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_02.jpg> referred in <None>
+2020-09-25 11:49:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> (referer: None)
+2020-09-25 11:49:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496525_03.jpg> referred in <None>
+2020-09-25 11:49:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-dub-morenyy-82496525/'],
  'photos': [{'checksum': '8fe1f2d2ed923d2c2db98762fb807c73',
              'path': 'full/01a10c4b4285564947e7540f19cbcbff77a009b2.jpg',
@@ -2286,15 +2286,15 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет дуб мореный'}
-2020-09-25 08:43:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> (referer: None)
-2020-09-25 08:43:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> referred in <None>
-2020-09-25 08:43:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> (referer: None)
-2020-09-25 08:43:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> referred in <None>
-2020-09-25 08:43:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> (referer: None)
-2020-09-25 08:43:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> referred in <None>
-2020-09-25 08:43:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> (referer: None)
-2020-09-25 08:43:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> referred in <None>
-2020-09-25 08:43:42 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/>
+2020-09-25 11:49:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> (referer: None)
+2020-09-25 11:49:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641.jpg> referred in <None>
+2020-09-25 11:49:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> (referer: None)
+2020-09-25 11:49:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_01.jpg> referred in <None>
+2020-09-25 11:49:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> (referer: None)
+2020-09-25 11:49:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_02.jpg> referred in <None>
+2020-09-25 11:49:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> (referer: None)
+2020-09-25 11:49:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82664641_03.jpg> referred in <None>
+2020-09-25 11:49:16 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-vodnaya-umnyy-remont-0-5-l-cvet-dub-82664641/'],
  'photos': [{'checksum': '82506b4ea8d8da9ff9260a70d51ebc90',
              'path': 'full/a4d8d5f1733277d53e490fb886bc74430b1953df.jpg',
@@ -2365,15 +2365,15 @@
                          'Дверь, Мебель, Окно, Терраса',
                          'На водной основе'],
  'title': 'Морилка для дерева водная Умный ремонт 0.5 л цвет дуб'}
-2020-09-25 08:43:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> (referer: None)
-2020-09-25 08:43:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> referred in <None>
-2020-09-25 08:43:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> (referer: None)
-2020-09-25 08:43:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> referred in <None>
-2020-09-25 08:43:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> (referer: None)
-2020-09-25 08:43:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> referred in <None>
-2020-09-25 08:43:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> (referer: None)
-2020-09-25 08:43:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> referred in <None>
-2020-09-25 08:43:47 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/>
+2020-09-25 11:49:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> (referer: None)
+2020-09-25 11:49:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531.jpg> referred in <None>
+2020-09-25 11:49:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> (referer: None)
+2020-09-25 11:49:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_01.jpg> referred in <None>
+2020-09-25 11:49:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> (referer: None)
+2020-09-25 11:49:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_02.jpg> referred in <None>
+2020-09-25 11:49:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> (referer: None)
+2020-09-25 11:49:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://res.cloudinary.com/lmru/image/upload/f_auto,q_auto,w_2000,h_2000,c_pad,b_white,d_photoiscoming.png/LMCode/82496531_03.jpg> referred in <None>
+2020-09-25 11:49:21 [scrapy.core.scraper] DEBUG: Scraped from <200 https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/>
 {'link': ['https://leroymerlin.ru/product/morilka-dlya-dereva-profilux-0-5-l-cvet-palisandr-82496531/'],
  'photos': [{'checksum': '9b37911bac7806b5dc3c7d766fb652c9',
              'path': 'full/59607929ba28c8f996999e9b22330c8dc000850d.jpg',
@@ -2439,19 +2439,19 @@
                          'Внутренний / наружный',
                          'Мебель'],
  'title': 'Морилка для дерева Profilux 0.5 л цвет палисандр'}
-2020-09-25 08:43:47 [scrapy.core.engine] INFO: Closing spider (finished)
-2020-09-25 08:43:47 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+2020-09-25 11:49:21 [scrapy.core.engine] INFO: Closing spider (finished)
+2020-09-25 11:49:21 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
 {'downloader/request_bytes': 59830,
  'downloader/request_count': 152,
  'downloader/request_method_count/GET': 152,
- 'downloader/response_bytes': 21253276,
+ 'downloader/response_bytes': 21254792,
  'downloader/response_count': 152,
  'downloader/response_status_count/200': 152,
- 'elapsed_time_seconds': 146.952567,
+ 'elapsed_time_seconds': 145.780906,
  'file_count': 118,
  'file_status_count/downloaded': 118,
  'finish_reason': 'finished',
- 'finish_time': datetime.datetime(2020, 9, 25, 5, 43, 47, 79374),
+ 'finish_time': datetime.datetime(2020, 9, 25, 8, 49, 21, 488108),
  'item_scraped_count': 32,
  'log_count/DEBUG': 349,
  'log_count/INFO': 12,
@@ -2463,5 +2463,5 @@
  'scheduler/dequeued/memory': 34,
  'scheduler/enqueued': 34,
  'scheduler/enqueued/memory': 34,
- 'start_time': datetime.datetime(2020, 9, 25, 5, 41, 20, 126807)}
-2020-09-25 08:43:47 [scrapy.core.engine] INFO: Spider closed (finished)
+ 'start_time': datetime.datetime(2020, 9, 25, 8, 46, 55, 707202)}
+2020-09-25 11:49:21 [scrapy.core.engine] INFO: Spider closed (finished)

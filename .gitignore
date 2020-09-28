@@ -5,5 +5,7 @@
 **/.log
 **/.jpg
 */*/images/
+*/*/scrapy.log
+**/scrapy.log
 **/geckodriver
 **/geckodriver.log

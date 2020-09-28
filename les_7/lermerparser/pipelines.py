@@ -9,6 +9,8 @@ from itemadapter import ItemAdapter
 import scrapy
 from pymongo import MongoClient
 from scrapy.pipelines.images import ImagesPipeline
+import hashlib
+from scrapy.utils.python import to_bytes
 
 
 class LermerparserPipeline:
@@ -52,6 +54,11 @@ class LermerPhotosPipeline(ImagesPipeline):
                     yield scrapy.Request(img)
                 except Exception as e:
                     print(e)
+
+    # def file_path(self, request, response=None, info=None):
+    #     image_guid = hashlib.sha1(to_bytes(request.url)).hexdigest()
+    #     return 'full/%s.jpg' % (image_guid)
+
 
     def item_completed(self, results, item, info):
         if results:
