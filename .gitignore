@@ -4,6 +4,7 @@
 **/.idea
 **/.log
 **/.jpg
+**/__pycache__
 */*/images/
 */*/scrapy.log
 **/scrapy.log
